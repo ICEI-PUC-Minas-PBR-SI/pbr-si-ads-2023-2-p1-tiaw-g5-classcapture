@@ -8,7 +8,7 @@
 
 `SEMESTRE: 1º`
 
-  
+  O propósito do projeto é organizar as fotografias tiradas do quadro em sala de aula que naturalmente ficam avulsas na galeria. O sistema organizara as fotos por disciplina, hora, e dia. 
 
 ## Integrantes
 
