@@ -20,28 +20,16 @@ Atualmente muitos estudantes utilizam o recurso de tirar fotos do quadro ao inv�
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo do projeto é desenvolver uma plataforma para o gerênciamento de materiais produzidos em sala de aula como foto, PDF, videos etc. Essa aplicação será capaz de guardar as informações do aluno através de um cadastro contendo seus dados e suas postagens de conteúdos feita, facilitando assim a visualização e indentificação desses matérias através de um gerencionamento por categoria, data, nome. Além disso os alunos poderão interagir entre si, por meio dos perfil que será atrelado no momento do cadastro e interação através do forum, garantindo uma comunidade participativa com um objetivo em comum.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A aplicação ClassCapture irá ajudar alunos a se organizarem de forma mais sistematica com as fotos tiradas do quadro de aula, PDFs compartilhados pelo professor, videos ou outros insumos produzidos em sala de aula, tornando o estudo do aluno mais organizado e didático separando por matéria e data. Além disso será adicionado um sistema de avaliação de trabalho por pares de forma aleatôria, que ira facilitar essa dinâmica para o professor.
+Assim então criando um ambiente organizado e estruturado que irá impulsionar o estudo dos alunos.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+ClassCapture têm como objetivo atender estudantes de todas as faixas etárias. Com ênfase em promover uma maior facilidade de organização de suas "fotos" escolares. Um app onde o principal objetivo é organizar as fotos em pastas específicas, criadas pelos próprios usúarios, dentre outros benefícios como cadastro pessoal, organizador de notas, comunidades onde você poderá interagir com outras pessoas.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
