@@ -16,7 +16,7 @@
 * Felipe Simão da Silva
 * Guilherme Augusto Lopes Campos
 * Igor Emanuel da Silva 
-* João Victor Silva Thomasi
+* João Victor Silva Thomazi
 * Otávio Martins da Silva Lima
 * Pedro Henrique Glicério Simões
 
