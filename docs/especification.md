@@ -6,19 +6,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Fernanda tem 17 anos, é solteira e mora em um condomínio de apartamento com seus pais em Belo Horizote. Atualmente está finalizando o ensino medio na escola estadual Olinto Meireles. Nasceu e morou em governador valadares até os 10 anos de idade, até seu pai receber uma proposta melhor de emprego em Belo Horizonte. Gosta de cantar, cozinhar, Ler e sair. Deseja um aplicativo que a ajude a organizar as fotos na galeria do celular e insumos produzidos em aula ou pelo professor, como videos, PDFs e atividades. Pois com a reta final do ensino medio com o Enem chegando ela quer se organizar melhor para conseguir uma boa nota e entrar na UFMG que é seu sonho.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Douglas, um jovem de 22 anos, solteiro e residente em Belo Horizonte, enfrenta um cotidiano agitado. Durante o dia, Douglas trabalha como repositor em um supermercado, enquanto à noite se dedica à faculdade no curso de Direito. Ele é um estudante dedicado, sempre preocupado com seu desempenho acadêmico. Contudo, Douglas enfrenta um certo desafio diário: a dificuldade de manter o foco no que o professor diz e, ao mesmo tempo, fazer anotações detalhadas. Ele percebeu que o melhor a se fazer é concentrar-se completamente na explicação do professor para entender e absorver o máximo de conhecimento possível. Ao término de cada aula, Douglas costuma tirar fotos do quadro ou slides para revisar mais tarde em casa. No entanto, enfrenta um certo problema de como organizar efetivamente essas fotos. Geralmente, essas fotos se perdem na galeria do seu dispositivo, e ele não consegue determinar a data ou a origem de cada foto, o que gera uma certa confusão.
+Então, certo dia, um amigo de Douglas apresentou-lhe um aplicativo chamado ClassCapture, um app feito exclusivamente para organizar fotos do quadro e slides. Com o tempo, Douglas percebeu que o aplicativo atendia todas as suas necessidades. Ele podia criar pastas personalizadas para cada matéria, e o aplicativo automaticamente registrava a data e hora de cada foto, proporcionando um registro preciso do momento em que cada conteúdo foi apresentado.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
 
 ## Histórias de Usuários
 
