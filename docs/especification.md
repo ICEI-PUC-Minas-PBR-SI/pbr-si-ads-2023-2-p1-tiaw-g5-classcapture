@@ -15,7 +15,7 @@ Então, certo dia, um amigo de Douglas apresentou-lhe um aplicativo chamado Clas
 
 Marcelo é um jovem adulto de 24 anos que atualmente estuda Relações Internacionais e faz estágio na área. Marcelo se dedica bastante ao seu trabalho, almejando ser efetivado na empresa em que está. Por fazer isso muitas vezes, ele acaba ficando esgotado quando chega à faculdade no turno da noite e não consegue dar 100% de atenção para a aula. Por conta desse cansaço, ele acaba não anotando o conteúdo dado em sala. Então, ele desenvolveu o costume de tirar fotos do quadro para poder revisar o conteúdo em casa. No entanto, com certa frequência, quando vai estudar para uma prova ou trabalho importante, ele acaba se perdendo em meio a tantas fotos em sua galeria. Marcelo procura constantemente por aplicativos ou ferramentas que possam ajudá-lo a se organizar em seus estudos.
 
-
+Fernando é um professor de Matemática de 45 anos, formado na UFMG. Atualmente, trabalha em duas escolas, uma na região da Pampulha e outra na região do Barreiro. No seu dia-a-dia, gosta de organizar as notas dos seus alunos, e nos fins de semana, Fernando auxilia alguns estudantes com aula particular. Como o cotidiano de Fernando é bastante movimentado, com diversas tarefas, notas e trabalhos, ele necessita de bastante controle, e às vezes, fazer isso sozinho gera bastante sobrecarregamento. Fernando procura constantemente por uma ferramenta que o auxilie em seu trabalho e economize seu tempo, organizando as notas e tarefas.
 
 ## Histórias de Usuários
 
