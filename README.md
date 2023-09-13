@@ -12,7 +12,8 @@
 
 ## Integrantes
 
-* Breno Matheus Ohasi Braga
+* Bruno Alexandre Anastacio de Almeida 
+* Daniel de Paula Godinho
 * Felipe Simão da Silva
 * Guilherme Augusto Lopes Campos
 * Igor Emanuel da Silva 
