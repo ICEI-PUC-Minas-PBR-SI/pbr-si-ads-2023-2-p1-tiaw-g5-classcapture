@@ -33,6 +33,10 @@ Marcelo é um jovem adulto de 24 anos que atualmente estuda Relações Internaci
 
 Fernando é um professor de Matemática de 45 anos, formado na UFMG. Atualmente, trabalha em duas escolas, uma na região da Pampulha e outra na região do Barreiro. No seu dia-a-dia, ele passa a maior parte do tempo lecionando, e nos fins de semana, Fernando auxilia alguns estudantes com aula particular. Como o cotidiano de Fernando é bastante movimentado, com diversas tarefas, notas e trabalhos, ele necessita de bastante controle, e às vezes, fazer isso sozinho gera bastante sobrecarregamento. Fernando procura constantemente por uma ferramenta que possa organizar e distribuir as tarefas para que o auxilie em seu trabalho e economize seu tempo.
 
+
+Lucas é um pré-adolescente de 13 anos, atualmente ele esta na 8° série do ensino fundamental, ele não tem muitas ocupações durante o seu dia, mas por ser uma jovem bastante ativo e energético ele acaba deixando algumas das matérias da sua escola “escaparem”, sabendo deste problema os pais de Lucas buscam por meios de solucionarem este problema e eles chegaram até o ClassCaptute que ajuda com a organização dos seus estudos com agilidade e praticidade.
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
