@@ -62,6 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Permitir a interação entre alunos e professores através do forum | BAIXA | |
 |RF-007| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
 |RF-008| Permitir que o professor possa distribuir atividades | MÉDIA | |
+|RF-009| Assinatura para ter acesso aos requisitos | ALTA | |
 
 ### Requisitos não Funcionais
 
@@ -73,6 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O sistema deve ser acessivel para usuário que usam leitores de tela | ALTA |
 |RNF-005| O sistema deve ser compatível com diferentes navegadores | MÉDIA |
 |RNF-006| O sistema deve permitir a redefinição de senha | ALTA |
+|RNF-009| Assinatura para ter acesso aos requisitos | ALTA | |
 
 ## Restrições
 
