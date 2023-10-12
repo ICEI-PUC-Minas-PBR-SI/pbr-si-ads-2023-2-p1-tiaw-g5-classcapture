@@ -17,7 +17,7 @@ Para trazer calma e concentração aos alunos, foram escolhidas as cores Light G
 
 Seguindo a proposta do projeto que visa organizar o ambiente acadêmico dos alunos, foram escolhidas as cores White Smoke (#F2F2F2) e o verde claro (#C7F9CC), que são cores suaves e neutras que podem ser usadas para criar um design limpo e espaçoso, facilitando a leitura e a navegação.
 
-![Cores](./img/IconsClassCapture.png)
+![Cores](./img/paletacoresClassCapture.png)
 
 ## Tipografia
 
