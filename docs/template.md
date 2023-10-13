@@ -4,8 +4,15 @@ O template foi projetado para ter uma navegação simples e intuitiva, garantind
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+A proposta da concepção de um logo minimalista com cores neutras e a incorporação de um chapéu de formatura foi meticulosamente pensada para ressoar com o ambiente acadêmico almejado para o site destinado aos alunos. 
 
+Um design minimalista é sinônimo de simplicidade e clareza, facilitando a identificação rápida e a memorização pelos usuários. É essencial que os alunos associem o logo ao ambiente acadêmico prontamente, promovendo uma conexão imediata com o propósito do site.
+
+Cores neutras transmitem uma sensação de profissionalismo e seriedade, que são características desejáveis em um contexto acadêmico.
+
+O chapéu de formatura é um símbolo universalmente reconhecido de realização acadêmica e aspiração educacional. Sua inclusão na logo reforça a missão educacional do site, instigando motivação e um sentido de propósito entre os alunos.
+
+![Design](./img/classcapturelogo.png)
 
 ## Cores
 
