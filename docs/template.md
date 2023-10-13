@@ -1,6 +1,6 @@
 # Template padrão do site
 
-O template foi projetado para ter uma navegação simples e intuitiva, garantindo um fácil entendimento no ambiente acadêmico.
+O template foi projetado para ter uma navegação simples e intuitiva, garantindo um fácil entendimento no ambiente acadêmico. Um site intuitivo é crucial para garantir que os alunos possam navegar facilmente e acessar os recursos e informações de que necessitam sem obstáculos. 
 
 ## Design
 
