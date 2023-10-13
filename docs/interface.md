@@ -23,7 +23,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-### Menu Inicial:
+### Página Inicial:
 
 Com base nos requisitos funcionais e não funcionais: 
 
@@ -65,7 +65,7 @@ Com base nos requisitos funcionais e não funcionais:
 
 RF-001 - Permitir o cadastro dos alunos.
 
-### Esqueci a senha (Início):
+### Esqueci a Senha (Início):
 Com base nos requisitos funcionais e não funcionais:
 
 RNF-006 - O sistema deve permitir a redefinição de senha.
