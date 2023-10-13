@@ -28,15 +28,16 @@ Seguindo a proposta do projeto que visa organizar o ambiente acadêmico dos alun
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+A tipografia utilizada no logo e no site foi a fonte Questrial.
 
+![Tipografia](./img/paletacoresClassCapture.png)
 
 ## Iconografia
 
 Utilizamos estes ícones para o site.
 (https://icons8.com.br/icons/collections/EPEbbXyV2w1l)
 
-![Iconografia](./img/IconsClassCapture.png)
+![Iconografia](./img/tipografiaquestrial.png)
 
 
 > **Links Úteis**:
