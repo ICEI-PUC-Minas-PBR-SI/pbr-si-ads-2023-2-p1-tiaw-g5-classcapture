@@ -5,6 +5,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
+Esse user flow da aplicação engloba todas as telas, proporcionando uma visão aprofundada de cada etapa que o usuário encontrará durante a utilização.
+
 ## User Flow
 
 ![Exemplo de UserFlow](img/userflow.jpg)
@@ -20,6 +22,53 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
+### Menu Inicial:
+
+Com base nos requisitos funcionais e não funcionais: 
+
+RNF-003 - O sistema deve conter uma interface intuitiva e amigável.
+
+### Adicionar Matéria:
+
+Com base nos requisitos funcionais e não funcionais: 
+
+RF-003 - Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula.
+
+### Galeria:
+Com base nos requisitos funcionais e não funcionais:
+
+RF-007 - Permitir que o aluno possa compartilhar o seus estudos.
+
+### Perfil:
+Com base nos requisitos funcionais e não funcionais:
+
+RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
+
+### Dashboard:
+Com base nos requisitos funcionais e não funcionais:
+
+RF- - .
+
+### Quantidade Faltas:
+Com base nos requisitos funcionais e não funcionais:
+
+RF- - .
+
+### Login (Início):
+Com base nos requisitos funcionais e não funcionais:
+
+RF- - .
+
+### Cadastro (Início):
+Com base nos requisitos funcionais e não funcionais:
+
+RF-001 - Permitir o cadastro dos alunos.
+
+### Esqueci a senha (Início):
+Com base nos requisitos funcionais e não funcionais:
+
+RNF-006 - O sistema deve permitir a redefinição de senha.
 
 ### Exemplo
 
