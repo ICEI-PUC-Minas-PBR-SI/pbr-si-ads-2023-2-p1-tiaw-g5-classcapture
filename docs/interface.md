@@ -46,19 +46,13 @@ Com base nos requisitos funcionais e não funcionais:
 RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 ### Dashboard:
-Com base nos requisitos funcionais e não funcionais:
 
-RF- - .
 
 ### Quantidade Faltas:
-Com base nos requisitos funcionais e não funcionais:
 
-RF- - .
 
 ### Login (Início):
-Com base nos requisitos funcionais e não funcionais:
 
-RF- - .
 
 ### Cadastro (Início):
 Com base nos requisitos funcionais e não funcionais:
