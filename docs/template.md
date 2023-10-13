@@ -30,14 +30,14 @@ Seguindo a proposta do projeto que visa organizar o ambiente acadêmico dos alun
 
 A tipografia utilizada no logo e no site foi a fonte Questrial.
 
-![Tipografia](./img/paletacoresClassCapture.png)
+![Tipografia](./img/tipografiaquestrial.png)
 
 ## Iconografia
 
 Utilizamos estes ícones para o site.
 (https://icons8.com.br/icons/collections/EPEbbXyV2w1l)
 
-![Iconografia](./img/tipografiaquestrial.png)
+![Iconografia](./img/IconsClassCapture.png)
 
 
 > **Links Úteis**:
