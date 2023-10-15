@@ -6,6 +6,11 @@
     --bg-white: #F2F2F2;
 }
 
+@font-face {
+    font-family: Questrial, sans-serif;
+    src: url(../fonts/Questrial-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@
 }
 
 body {
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 main {
@@ -26,7 +31,19 @@ header {
 }
 
 nav, footer {
-    background-color: var(--third);
+    background-color: var(--primary);
+}
+
+.font-logo {
+    font-family: "Questrial";
+}
+
+.class {
+    color: var(--third);
+}
+
+.capture {
+    color: var(--bg-white);
 }
 
 .titulo, .banner__paragrafo {
