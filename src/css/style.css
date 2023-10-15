@@ -32,15 +32,16 @@ body {
 }
 
 .principal {
-    height: 100vh;
     padding: 2rem;
+    box-sizing: border-box;
+    min-height: 100vh;
 }
 
-figure {
-    background: url(../img/32117652_2208_w048_n005_265b_p1_265-removebg-preview.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 300px;
+.banner {
+    width: 100%;
+    display: block;
+    max-width: 854px;
+    margin: 0 auto;
 }
 
 .titulo, .banner__paragrafo {
@@ -70,16 +71,11 @@ figure {
     justify-content: center;
 }
 
-.card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .card {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
-    border-radius: 0;
+    border-radius: 3px;
 }
 
 .carousel-inner {
@@ -109,12 +105,16 @@ figure {
     transform: translateY(-50%);
 }
 
-  @media (min-width: 768px) {
-    .card img {
-      height: 11em;
-    }
-}
-
 .footer {
     background-color: #38a3a5;
+}
+
+@media screen and (max-width: 570px) {
+    .banner__card {
+        margin: 1rem 0;
+    }
+    .banner {
+        margin: 2rem 0;
+    }
+
 }
