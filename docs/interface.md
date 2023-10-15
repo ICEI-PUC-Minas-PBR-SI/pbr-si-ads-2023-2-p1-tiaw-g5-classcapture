@@ -45,7 +45,8 @@ RF-007 - Permitir que o aluno possa compartilhar o seus estudos.
 ### Perfil:
 Com base nos requisitos funcionais e não funcionais:
 
-![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/f16e8126-e917-49bf-8428-07cf91505683)
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/d0e2f58c-7efa-4caf-b13e-47dbf5c10f8d)
+
 
 
 A area de perfil exibe uma lista de informações a serem preenchidas ou editadas.
