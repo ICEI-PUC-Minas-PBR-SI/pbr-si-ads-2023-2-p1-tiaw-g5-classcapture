@@ -1,0 +1,52 @@
+:root {
+    --black: #000;
+    --primary: #22577A;
+    --secondary: #38A3A5;
+    --third: #57cc99;
+    --bg-white: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+main {
+    background-color: var(--bg-white);
+}
+
+header {
+    margin-top: 100px;
+}
+
+nav, footer {
+    background-color: var(--third);
+}
+
+.titulo, .banner__paragrafo {
+    color: #22577a;
+
+}
+
+.banner__paragrafo {
+    font-weight: 500;
+}
+
+.botao__assinatura {
+    color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    background-color: #38a3a5;
+    padding: .5rem 1rem;
+}
+
+.botao__assinatura:active, .botao__assinatura:hover {
+    color: #f2f2f2;
+    background-color: #57cc99;
+}
