@@ -52,7 +52,8 @@ A area de perfil exibe uma lista de informações a serem preenchidas ou editada
 RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 ### Dashboard:
-![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/bfd5ac09-e9d4-4059-97bd-31d48649f6d3)
+
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/ee074414-97a8-471e-8a86-0082fea44391)
 
 
 O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
