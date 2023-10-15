@@ -24,6 +24,8 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
 ### Página Inicial:
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/6805b242-9647-4f38-89c9-2a32abc4c14a)
+A tela Inicial apresenta um menu central com as principais seções do portal, enquanto embaixo, apresenta informações de envio de imagens ou navegação pela galeria de fotos e outras funcionalidades do app.
 
 Com base nos requisitos funcionais e não funcionais: 
 
@@ -43,23 +45,39 @@ RF-007 - Permitir que o aluno possa compartilhar o seus estudos.
 ### Perfil:
 Com base nos requisitos funcionais e não funcionais:
 
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/1fef79bd-40e7-4336-bd16-ddb5fdf444af)
+
+A area de perfil exibe uma lista de informações a serem preenchidas ou editadas.
+
 RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 ### Dashboard:
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/8a893494-5ca0-46ed-bf11-d297c6c1771b)
 
+O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
 
 ### Quantidade Faltas:
 
 
 ### Login (Início):
-https://www.figma.com/file/HIszqn3ilBiU2rBaQ4snkR/LOGIN-CLASS-CAPTURE?type=design&mode=design&t=iRvNCzr2YpdDhGHl-0
+
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/35e47278-57aa-47f2-9491-12d1195e2bb1)
+
+A tela de login exibirá Inputs para preencher o nome de acesso e senha, e botões de "entrar", "trocar senha", "criar nova conta" e "sair".
 
 ### Cadastro (Início):
 Com base nos requisitos funcionais e não funcionais:
 
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/a9c3a4df-e82c-4b54-9d71-0740af2b8095)
+
+A tela de cadastro exibe uma lista de informações a serem preenchidas ou editadas.
+
 RF-001 - Permitir o cadastro dos alunos.
 
 ### Esqueci a Senha (Início):
+
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/117a21c7-b579-4651-96e5-96e15ba2bcdf)
+
 Com base nos requisitos funcionais e não funcionais:
 
 RNF-006 - O sistema deve permitir a redefinição de senha.
