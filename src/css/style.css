@@ -1,0 +1,69 @@
+:root {
+    --black: #000;
+    --primary: #22577A;
+    --secondary: #38A3A5;
+    --third: #57cc99;
+    --bg-white: #F2F2F2;
+}
+
+@font-face {
+    font-family: Questrial-Regular;
+    src: url(../fonts/Questrial-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: var(--secondary);
+}
+
+main {
+    background-color: var(--bg-white);
+}
+
+header {
+    margin-top: 100px;
+}
+
+nav, footer {
+    background-color: var(--primary);
+}
+
+.font-logo {
+    font-family: 'Questrial-Regular';
+}
+
+.class {
+    color: var(--third);
+}
+
+.capture {
+    color: var(--bg-white);
+}
+
+.titulo, .banner__paragrafo {
+    color: var(--primary);
+
+}
+
+.banner__paragrafo {
+    font-weight: 500;
+}
+
+.botao__assinatura {
+    color: var(--bg-white);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary);
+    padding: .5rem 1rem;
+}
+
+.botao__assinatura:active, .botao__assinatura:hover {
+    color: var(--bg-white);
+    background-color: var(--third);
+}
