@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: Questrial, sans-serif;
+    font-family: Questrial-Regular;
     src: url(../fonts/Questrial-Regular.ttf);
 }
 
@@ -35,7 +35,7 @@ nav, footer {
 }
 
 .font-logo {
-    font-family: "Questrial";
+    font-family: 'Questrial-Regular';
 }
 
 .class {
