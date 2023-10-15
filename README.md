@@ -20,6 +20,7 @@
 * João Victor Silva Thomazi
 * Otávio Martins da Silva Lima
 * Pedro Henrique Glicério Simões
+* Carlos Henrique Pereira Vieira
 
 
 ## Orientador
