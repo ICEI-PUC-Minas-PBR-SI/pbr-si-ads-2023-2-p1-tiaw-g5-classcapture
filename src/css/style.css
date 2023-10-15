@@ -30,7 +30,7 @@ nav, footer {
 }
 
 .titulo, .banner__paragrafo {
-    color: #22577a;
+    color: var(--primary);
 
 }
 
@@ -39,14 +39,14 @@ nav, footer {
 }
 
 .botao__assinatura {
-    color: #f2f2f2;
+    color: var(--bg-white);
     border-radius: 5px;
     border: none;
-    background-color: #38a3a5;
+    background-color: var(--secondary);
     padding: .5rem 1rem;
 }
 
 .botao__assinatura:active, .botao__assinatura:hover {
-    color: #f2f2f2;
-    background-color: #57cc99;
+    color: var(--bg-white);
+    background-color: var(--third);
 }
