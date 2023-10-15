@@ -68,7 +68,8 @@ A tela de login exibirá Inputs para preencher o nome de acesso e senha, e botõ
 ### Cadastro (Início):
 Com base nos requisitos funcionais e não funcionais:
 
-![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/a9c3a4df-e82c-4b54-9d71-0740af2b8095)
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/edba826e-ba5d-4513-a00b-a3e3fe7ca1bc)
+
 
 A tela de cadastro exibe uma lista de informações a serem preenchidas ou editadas.
 
