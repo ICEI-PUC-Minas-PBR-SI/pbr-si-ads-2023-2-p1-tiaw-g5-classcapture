@@ -52,7 +52,7 @@ Landing Page, será a primeira tela apresentada ao usuário que acessar o site s
 
 ### Login (Início):
 
-![image]([https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/aeda57a2-46f0-4948-9a0c-1710a4cd4764](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/LOGIN%20CLASS%20CAPTURE.png?raw=true))
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/LOGIN%20CLASS%20CAPTURE.png?raw=true)
 
 
 A tela de login exibirá Inputs para preencher o nome de acesso e senha, e botões de "entrar", "trocar senha", "criar nova conta" e "sair".
