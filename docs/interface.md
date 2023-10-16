@@ -10,7 +10,7 @@ A tela inicial direciona o usuário para criar uma conta ou para logar em sua co
 
 ## Wireframes
 
-### Página Inicial:
+### Menu Principal:
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/6805b242-9647-4f38-89c9-2a32abc4c14a)
 A tela Inicial apresenta um menu central com as principais seções do portal, enquanto embaixo, apresenta informações de envio de imagens ou navegação pela galeria de fotos e outras funcionalidades do app.
 
@@ -42,8 +42,6 @@ RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 
 O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
-
-### Quantidade Faltas:
 
 
 ### Login (Início):
