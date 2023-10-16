@@ -44,6 +44,12 @@ RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
 
 
+### Tela inicial (Início):
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/ClassCapture%20(Landing%20Page).png?raw=true)
+
+
+Landing Page, será a primeira tela apresentada ao usuário que acessar o site sem estar logado.
+
 ### Login (Início):
 
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/aeda57a2-46f0-4948-9a0c-1710a4cd4764)
