@@ -40,7 +40,7 @@ RF-003 - Permitir a criação de pastas para que os alunos possa armazenar os in
 
 ### Galeria:
 
-![image] (https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/d2bbf568-ceda-49c8-a6e4-0bdea1954277.jpg?raw=true)
+![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/d2bbf568-ceda-49c8-a6e4-0bdea1954277.jpg?raw=true)
 Com base nos requisitos funcionais e não funcionais:
 
 RF-007 - Permitir que o aluno possa compartilhar o seus estudos.
