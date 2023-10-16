@@ -9,8 +9,6 @@ Esse user flow da aplicação engloba todas as telas, proporcionando uma visão 
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/assets/48845273/ee40e0c1-0216-4ae5-9c81-c668af293bc1)
 
 
