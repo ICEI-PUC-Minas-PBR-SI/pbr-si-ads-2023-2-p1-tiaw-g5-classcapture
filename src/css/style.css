@@ -27,7 +27,7 @@ main {
 }
 
 header {
-    margin-top: 100px;
+    margin-bottom: 155px;
 }
 
 nav, footer {
@@ -40,6 +40,11 @@ nav, footer {
 
 .class {
     color: var(--third);
+}
+
+h1 span.teste {
+    background-color: var(--primary);
+    /* color: var(--primary); */
 }
 
 .capture {
