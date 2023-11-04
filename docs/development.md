@@ -44,7 +44,7 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
 | Título         | Texto             | User do usuário                           | @teste                                  |
 | Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                             |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
 
 ## Cadastro
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
@@ -52,4 +52,4 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
 | Título         | Texto             | User do usuário                           | Bruno Almeida                                 |
 | Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                            |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
