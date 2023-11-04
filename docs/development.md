@@ -17,26 +17,39 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-## Exemplo
 
 ## Requisitos Atendidos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
+Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do projeto, representados nas tabelas a seguir, que detalham os artefatos criados:
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|ID    | Descrição do Requisito | Responsavél | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|-| Tela incial. | - | - |
+|-| Login. | - | - |
+|-| Cadastro (Login). | - | - |
+|-| Esqueci a senha (Login). | - | - |
+|-| Menu Principal. | - | - |
+|RF-005| Permitir que o aluno tenha controle de suas notas (Dashboard). | Guilherme | dashboard.html |
+|-| Perfil. | - | - |
+|-| Tela incial. | - | - |
+|-| Controle de faltas. | - | - |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
+| Título         | Texto             | User do usuário                           | @teste                                  |
+| Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                             |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
 
+## Cadastro
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
+| Título         | Texto             | User do usuário                           | Bruno Almeida                                 |
+| Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
