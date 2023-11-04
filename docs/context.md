@@ -11,7 +11,7 @@ O objetivo do "ClassCapture" surge como uma solução abrangente para esses prob
 
 ## Justificativa
 
-A existência do "ClassCapture" é justificada pela necessidade de enfrentar os desafios que estudantes acadêmico moderno. Estudantes frequentemente se veem sobrecarregados com a tarefa de organizar e revisar informações essenciais contidas em fotos e documentos mostrados durante as aulas. A dificuldade de acessar e utilizar eficazmente esses recursos pode impactar negativamente o desempenho acadêmico e a compreensão do conteúdo, prejudicando a qualidade da educação.
+A existência do "ClassCapture" é justificada pela necessidade de enfrentar os desafios que estudantes enfrentam no ambiente acadêmico moderno. Estudantes frequentemente se veem sobrecarregados com a tarefa de organizar e revisar informações essenciais contidas em fotos e documentos mostrados durante as aulas. A dificuldade de acessar e utilizar eficazmente esses recursos pode impactar negativamente o desempenho acadêmico e a compreensão do conteúdo, prejudicando a qualidade da educação.
 
 "ClassCapture" busca facilitar a vida dos estudantes, promovendo a organização, a colaboração eficaz e, em última análise, a melhoria do aprendizado
 
