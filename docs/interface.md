@@ -16,6 +16,7 @@ A tela Inicial apresenta um menu central com as principais seções do portal, e
 
 Com base nos requisitos funcionais e não funcionais: 
 
+RF-004 - Permitir a visualização de forma intuitiva no menu.
 RNF-003 - O sistema deve conter uma interface intuitiva e amigável.
 
 ### Galeria:
@@ -43,6 +44,7 @@ RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
 
+RF-006 -	Permitir que o aluno tenha controle de suas notas.
 
 ### Tela inicial (Início):
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/ClassCapture%20(Landing%20Page).png?raw=true)
