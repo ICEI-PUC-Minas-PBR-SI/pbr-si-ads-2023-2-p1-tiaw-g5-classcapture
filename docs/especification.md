@@ -60,6 +60,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
 |RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina | MÉDIA | |
 |RF-010| Assinatura para ter acesso aos requisitos | ALTA | |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login | ALTA | |
+|RF-012| Permitir realizar o login para acessar recursos do site | ALTA | |
 
 ### Requisitos não Funcionais
 
