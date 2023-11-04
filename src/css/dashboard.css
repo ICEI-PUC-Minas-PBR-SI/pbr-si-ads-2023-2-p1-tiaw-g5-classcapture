@@ -1,0 +1,70 @@
+.dashboard__grafico {
+    max-width: 1091px;
+    max-height: 545px;
+    margin: 0 auto;
+}
+
+.dashboard__titulo {
+    color: var(--secondary);
+    margin: 1rem 0;
+}
+
+.dashboard__lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.dashboard__lista-item {
+    margin: 1rem 0;
+    display: inline-block;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.dashboard__legenda {
+    color: var(--primary);
+}
+
+.dashboard__input {
+    width: 70px;
+    margin-top: .5rem;
+    outline-color: var(--secondary);
+    border-radius: 3px;
+    border: 1px solid var(--secondary);
+    text-align: center;
+}
+
+.dashboard__botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botao {
+    padding:  .5rem 1rem;
+    border-radius: 5px;
+    border: .5px solid;
+    background-color: var(--secondary);
+    color: floralwhite;
+    margin: 0 2rem;
+    transition: .3s;
+}
+
+.botao:hover, .botao:active {
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 324px) {
+
+    .botao--resetar {
+        margin-top: .5rem;
+    }
+}
