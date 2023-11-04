@@ -16,6 +16,7 @@ A tela Inicial apresenta um menu central com as principais seções do portal, e
 
 Com base nos requisitos funcionais e não funcionais: 
 
+RF-004 - Permitir a visualização de forma intuitiva no menu.
 RNF-003 - O sistema deve conter uma interface intuitiva e amigável.
 
 ### Galeria:
@@ -43,10 +44,12 @@ RF-005 - Permitir que cada aluno possa editar suas informações no perfil.
 
 O dashboard exibirá informações em formato de graficos de informações preenchidas pelo usuário.
 
+RF-006 -	Permitir que o aluno tenha controle de suas notas.
 
 ### Tela inicial (Início):
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/ClassCapture%20(Landing%20Page).png?raw=true)
 
+RF-011 - Permitir que o usuário visualize o site antes de fazer o login. 
 
 Landing Page, será a primeira tela apresentada ao usuário que acessar o site sem estar logado.
 
@@ -54,6 +57,7 @@ Landing Page, será a primeira tela apresentada ao usuário que acessar o site s
 
 ![image](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g5-classcapture/blob/main/docs/img/LOGIN%20CLASS%20CAPTURE.png?raw=true)
 
+RF-012 - Permitir realizar o login para acessar recursos do site. 
 
 A tela de login exibirá Inputs para preencher o nome de acesso e senha, e botões de "entrar", "trocar senha", "criar nova conta" e "sair".
 
@@ -73,4 +77,5 @@ RF-001 - Permitir o cadastro dos alunos.
 
 Com base nos requisitos funcionais e não funcionais:
 
+RF-002 - Permitir a alteração de cadastro inicial dos alunos.
 RNF-006 - O sistema deve permitir a redefinição de senha.
