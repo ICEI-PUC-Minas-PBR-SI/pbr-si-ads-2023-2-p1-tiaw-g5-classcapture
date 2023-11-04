@@ -1,0 +1,29 @@
+/* Estilos para as bordas azuis */
+.border-blue {
+    border: 2px solid #0077B6;
+}
+
+.custom-height {
+    height: 696px; /* Ajuste o valor conforme necessário */
+}
+
+.card-body{
+    height: 475px;
+    width: auto;
+}
+
+.capture{
+    color: #0077B6;
+}
+
+.custom-button {
+    width: 300px; /* Ajuste o valor conforme necessário */
+}
+
+.btn-primary.custom-button {
+    background-color: #57CC99
+}
+
+.input-group-text ion-icon {
+    font-size: 24px; /* Tamanho do ícone */
+}
