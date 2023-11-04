@@ -40,7 +40,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Estudante  | Armazenar, organizar e compartilhar conteúdo produzido em sala, ter controle de notas e faltas | Aumentar a eficiência nos estudos |
+|Estudante  | Armazenar, organizar e compartilhar conteúdo produzido em sala | Aumentar a eficiência nos estudos |
 
 ## Requisitos
 
@@ -51,12 +51,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir o cadastro dos alunos | ALTA |  |
-|RF-002| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula | ALTA | |
-|RF-003| Permitir que cada aluno possa editar suas informações no perfil | ALTA | |
-|RF-004| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
-|RF-005| Assinatura para ter acesso aos requisitos | ALTA | |
-|RF-005| Permitir que o aluno tenha controle de suas notas | MÉDIA | |
-|RF-005| Permitir que o aluno tenha controle de suas faltas | MÉDIA | |
+|RF-002| Permitir a alteração de cadastro inicial dos alunos | ALTA |  |
+|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula | ALTA | |
+|RF-004| Permitir a visualização de forma intuitiva no menu | ALTA | |
+|RF-005| Permitir que cada aluno possa editar suas informações no perfil | ALTA | |
+|RF-006| Permitir que o aluno tenha controle de suas notas  | MEDIA | |
+|RF-007| Permitir a interação entre alunos através do forum | BAIXA | |
+|RF-008| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
+|RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina | MÉDIA | |
+|RF-010| Assinatura para ter acesso aos requisitos | ALTA | |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login | ALTA | |
+|RF-012| Permitir realizar o login para acessar recursos do site | ALTA | |
 
 ### Requisitos não Funcionais
 
@@ -65,9 +70,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| O sistema deve conter uma interface intuitiva e amigável | ALTA |
+|RNF-004| O sistema deve ser acessivel para usuário que usam leitores de tela | ALTA |
 |RNF-005| O sistema deve ser compatível com diferentes navegadores | MÉDIA |
 |RNF-006| O sistema deve permitir a redefinição de senha | ALTA |
-|RNF-009| Assinatura para ter acesso aos requisitos | ALTA | |
+|RNF-007| Assinatura para ter acesso aos requisitos | ALTA | |
 
 ## Restrições
 
@@ -79,6 +85,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O desenvolvimento do projeto estará limitado a 9 alunos |
 |04| O aplicativo deve se restringir às tecnologias básicas do Front-end |
-|05| O sistema deve garantir a segurança das informações dos usuários |
-|06| O sistema deve ser capaz de lidar com um grande volume de acessos simultâneos |
+|05|	O sistema deve garantir a segurança das informações dos usuários |
+|06|	O sistema deve ser capaz de lidar com um grande volume de acessos simultâneos |
 |07| O sistema deve ter backups regulares para garantir o armazenamento e a disponibilidade dos dados |
