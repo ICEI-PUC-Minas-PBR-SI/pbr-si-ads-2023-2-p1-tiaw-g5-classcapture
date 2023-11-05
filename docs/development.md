@@ -33,7 +33,7 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 |RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | - | - |
 |RF-006| Permitir que o aluno tenha controle de suas notas (Dashboard). | Guilherme | dashboard.html |
 |RF-005| Permitir que cada aluno possa editar suas informações no perfil (Perfil). | - | - |
-|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | - | - |
+|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | Felipe | - |
 |RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina (Controle de faltas). | - | - |
 
 ## Descrição das estruturas:
