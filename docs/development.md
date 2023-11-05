@@ -26,7 +26,7 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 
 |ID    | Descrição do Requisito | Responsavél | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-011| Permitir que o usuário visualize o site antes de fazer o login (Tela inicial). | - | - |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login (Tela inicial). | Carlos | home.html |
 |RF-012| Permitir realizar o login para acessar recursos do site (Login). | Pedro | login.html |
 |RF-001| Permitir o cadastro dos alunos (Cadastro). | Pedro | cadastro.html |
 |RF-002| Permitir a alteração de cadastro inicial dos alunos (Esqueci a senha). | - | - |
