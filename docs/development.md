@@ -30,7 +30,7 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 |RF-012| Permitir realizar o login para acessar recursos do site (Login). | Pedro | login.html |
 |RF-001| Permitir o cadastro dos alunos (Cadastro). | Pedro | cadastro.html |
 |RF-002| Permitir a alteração de cadastro inicial dos alunos (Esqueci a senha). | - | - |
-|RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | - | - |
+|RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | Guilherme e Carlos | index.html |
 |RF-006| Permitir que o aluno tenha controle de suas notas (Dashboard). | Guilherme | dashboard.html |
 |RF-005| Permitir que cada aluno possa editar suas informações no perfil (Perfil). | - | - |
 |RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | Felipe | galeria.html |
