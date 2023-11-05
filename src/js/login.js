@@ -11,7 +11,7 @@ window.onload = () => {
         if(event.target.value.length){
             password.addEventListener("change", (event) => {            
                 console.log(event.target.value.length);
-                link.setAttribute('href', 'template.html');
+                link.setAttribute('href', 'home.html');
             
             });
         } else {
