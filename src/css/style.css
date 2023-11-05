@@ -44,7 +44,6 @@ nav, footer {
 
 h1 span.teste {
     background-color: var(--primary);
-    /* color: var(--primary); */
 }
 
 .capture {
@@ -53,14 +52,13 @@ h1 span.teste {
 
 .titulo, .banner__paragrafo {
     color: var(--primary);
-
 }
 
 .banner__paragrafo {
     font-weight: 500;
 }
 
-.botao__assinatura {
+.botao__abrir_album, .botao__assinatura {
     color: var(--bg-white);
     border-radius: 5px;
     border: none;
@@ -68,7 +66,11 @@ h1 span.teste {
     padding: .5rem 1rem;
 }
 
-.botao__assinatura:active, .botao__assinatura:hover {
+.botao__abrir_album:active, .botao__assinatura:active, .botao__abrir_album:hover, .botao__assinatura:hover {
     color: var(--bg-white);
-    background-color: var(--third);
+    background-color: var(--primary);
 }
+
+/* .botao__abrir_album {
+    background-color: var(--secondary);
+} */
