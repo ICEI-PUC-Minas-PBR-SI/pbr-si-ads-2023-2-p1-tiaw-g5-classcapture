@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 780px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 10px; */
+    }
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.photo-frame {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.photo-frame img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px
+}
+
+.photo-frame {
+    /* margin: 10px; */
+    /* Ajuste as margens conforme desejado */
+    box-shadow: 0px 3px 6px gray;
+
+}
+
+/* aside {
+    margin-right: -180px;
+} */
+
+.aside-left {
+    background: #f0f0f0;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+.horizontal-list {
+    list-style: none;
+}
+
+.horizontal-list li ion-icon {
+    margin-right: 10px;
+}
+
+.horizontal-list li {
+    margin: 12px;
+    width: 100%;
+    /* Utilize todo o espaço disponível */
+}
+
+.aside-content {
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.horizontal-list li a {
+    display: block;
+    /* Para ocupar toda a largura disponível */
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 0.3px solid #333;
+    transition: all 0.3s;
+    width: calc(100% - 20px);
+    /* A largura é o total menos o padding */
+    box-sizing: border-box;
+    /* Inclui padding e borda na largura total */
+    text-align: center;
+    box-shadow: 0px 3px 5px gray;
+
+}
+
+.horizontal-list li a:hover {
+    background-color: #f2f2f2;
+}
+
+.titulogaleria {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.storage-bar {
+    text-align: center;
+}
+
+.bar {
+    width: 100px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    width: 0;
+    transition: width 0.5s ease;
+}
+
+input[type="range"] {
+    width: 170px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+ion-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.input-group-text p {
+    margin: 10px;
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
