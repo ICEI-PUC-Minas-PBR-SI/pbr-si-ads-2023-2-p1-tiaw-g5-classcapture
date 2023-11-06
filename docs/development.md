@@ -26,15 +26,15 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 
 |ID    | Descrição do Requisito | Responsavél | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-011| Permitir que o usuário visualize o site antes de fazer o login (Tela incial). | - | - |
-|RF-012| Permitir realizar o login para acessar recursos do site (Login). | - | - |
-|RF-001| Permitir o cadastro dos alunos (Cadastro). | - | - |
-|RF-002| Permitir a alteração de cadastro inicial dos alunos (Esqueci a senha). | - | - |
-|RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | - | - |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login (Tela inicial). | Carlos | index.html |
+|RF-012| Permitir realizar o login para acessar recursos do site (Login). | Pedro | login.html |
+|RF-001| Permitir o cadastro dos alunos (Cadastro). | Pedro | cadastro.html |
+|RF-002| Permitir a alteração de cadastro inicial dos alunos (Esqueci a senha). | Daniel | esqueci-senha.html |
+|RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | Guilherme e Carlos | home.html |
 |RF-006| Permitir que o aluno tenha controle de suas notas (Dashboard). | Guilherme | dashboard.html |
-|RF-005| Permitir que cada aluno possa editar suas informações no perfil (Perfil). | - | - |
-|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | - | - |
-|RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina (Controle de faltas). | - | - |
+|RF-005| Permitir que cada aluno possa editar suas informações no perfil (Perfil). | João | perfil.html |
+|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | Felipe | galeria.html |
+|RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina (Controle de faltas). | Otávio | faltas.html |
 
 ## Descrição das estruturas:
 
@@ -44,7 +44,7 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
 | Título         | Texto             | User do usuário                           | @teste                                  |
 | Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                             |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
 
 ## Cadastro
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
@@ -52,4 +52,4 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
 | Título         | Texto             | User do usuário                           | Bruno Almeida                                 |
 | Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                            |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (secreto)                                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
