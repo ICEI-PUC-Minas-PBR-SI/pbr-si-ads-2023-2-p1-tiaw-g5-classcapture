@@ -79,9 +79,20 @@
             </div>
         </nav>
     </header>
-    <main class="mt-5 m-auto p-3 row w-75 w-auto justify-content-center principal container align-items-center">
-        <section class="dashboard__secao">
+    <main class="m-auto justify-content-center principal row">
+        <aside class="dashboard__aside col-12 col-lg-2">
+            <img src="/src/img/foto-usuario.png" alt="" class="aside__img">
+            <ul class="aside__lista">
+                <li class="aside__item"><a class="aside__link" href="home.html">Home</a></li>
+                <li class="aside__item"><a class="aside__link" href="faltas.html">Faltas</a></li>
+                <li class="aside__item"><a class="aside__link" href="galeria.html">Galeria</a></li>
+                <li class="aside__item"><a class="aside__link" href="dashboard.html">Dashboard</a></li>
+                <li class="aside__item"><a class="aside__link" href="perfil.html">Perfil</a></li>
+            </ul>
+        </aside>
+        <section class="dashboard__secao col-12 col-sm-12 col-md-12 col-lg-7">
             <h1 class="dashboard__titulo">Gráfico de Desempenho</h1>
+            <p class="dashboard__paragrafo">Esta página exibe um gráfico interativo para que você acompanhar seu desempenho acadêmico ao longo do tempo. Insira suas notas e veja imediatamente uma representação visual de seu progresso. O gráfico fornece uma visão clara e permite que você identifique áreas de melhoria e celebre seus sucessos. É uma ferramenta útil para avaliar o progresso acadêmico e estabelecer metas educacionais. Use esta página para manter-se informado sobre seu desempenho.</p>
             <canvas id="grafico" class="dashboard__grafico"></canvas>
             <div class="dashboard__disciplinas">
                 <ul class="dashboard__lista">
@@ -120,6 +131,31 @@
                     <button type="submit" class="botao botao--enviar">Enviar</button>
                     <button type="submit" class="botao botao--resetar">Resetar</button>
                 </div>
+            </div>
+        </section>
+        <section class="dashboard__tarefas col-12 col-sm-12 col-md-6 col-lg-3">
+            <h3 class="dashboard__subtitulo">Tarefas</h3>
+            <div class="tarefas__content">
+                <div class="tarefas__content-add">
+                    <input type="text" id="input-task" placeholder="Digite sua nova tarefa">
+                    <button id="bt-new-task" title="Clique aqui para adicionar uma nova tarefa">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg>
+                    </button>
+                </div>
+                <div class="tarefas__content-body">
+                    <ul id="to-do-list">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="dashboard__anotacao col-12 col-sm-12 col-md-6 col-lg-8">
+            <div class="anotacao__content">
+              <h3 class="dashboard__subtitulo"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                </svg></span>Anotações</h3>
+                <textarea id="texto" rows="5" cols="40" class="anotacao__texto"></textarea>
             </div>
         </section>
     </main>
@@ -185,6 +221,8 @@
     <script src="/src/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/src/js/dashboard.js"></script>
+    <script src="/src/js/tarefas.js"></script>
+    <script src="/src/js/anotacoes.js"></script>
 </body>
 
 </html>
