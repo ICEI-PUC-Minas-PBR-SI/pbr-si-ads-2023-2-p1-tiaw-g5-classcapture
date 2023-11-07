@@ -17,26 +17,39 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-## Exemplo
 
 ## Requisitos Atendidos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
+Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do projeto, representados nas tabelas a seguir, que detalham os artefatos criados:
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|ID    | Descrição do Requisito | Responsavél | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login (Tela inicial). | Carlos | index.html |
+|RF-012| Permitir realizar o login para acessar recursos do site (Login). | Pedro | login.html |
+|RF-001| Permitir o cadastro dos alunos (Cadastro). | Pedro | cadastro.html |
+|RF-002| Permitir a alteração de cadastro inicial dos alunos (Esqueci a senha). | Daniel | esqueci-senha.html |
+|RF-004| Permitir a visualização de forma intuitiva no menu (Menu Principal). | Guilherme e Carlos | home.html |
+|RF-006| Permitir que o aluno tenha controle de suas notas (Dashboard). | Guilherme | dashboard.html |
+|RF-005| Permitir que cada aluno possa editar suas informações no perfil (Perfil). | João | perfil.html |
+|RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria). | Felipe | galeria.html |
+|RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina (Controle de faltas). | Otávio | faltas.html |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
+| Título         | Texto             | User do usuário                           | @teste                                  |
+| Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                             |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
 
+## Cadastro
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
+| Título         | Texto             | User do usuário                           | Bruno Almeida                                 |
+| Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                            |
+| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |

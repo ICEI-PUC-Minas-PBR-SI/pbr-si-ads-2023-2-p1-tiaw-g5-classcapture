@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-A plataforma "ClassCapture" busca resolver desafios enfrentados por estudantes e professores. Ela visa melhorar a recuperação de informações, facilitar o acompanhamento do desempenho dos alunos e promover interações entre eles. Professores podem classificar notas e disponibilizar materiais, contribuindo para o acompanhamento da turma. O objetivo é criar uma ferramenta completa para aprimorar a experiência acadêmica, simplificando o compartilhamento de conhecimento.
+A plataforma "ClassCapture" busca resolver desafios enfrentados por estudantes. Ela visa melhorar a recuperação de informações, facilitar o acompanhamento do desempenho dos alunos e promover interações entre eles. O objetivo é criar uma ferramenta completa para aprimorar a experiência acadêmica, simplificando o compartilhamento de conhecimento.
 
 Técnicas e Ferramentas Utilizadas no projeto "ClassCapture":
 • Visual Studio Code (VSCode): Utilizado como ambiente de desenvolvimento integrado (IDE) para escrever, editar e gerenciar o código-fonte do projeto.
@@ -31,9 +31,6 @@ Então, certo dia, um amigo de Douglas apresentou-lhe uma plataforma chamado Cla
 
 Marcelo é um jovem adulto de 24 anos que atualmente estuda Relações Internacionais e faz estágio na área. Marcelo se dedica bastante ao seu trabalho, almejando ser efetivado na empresa em que está. Por fazer isso muitas vezes, ele acaba ficando esgotado quando chega à faculdade no turno da noite e não consegue dar 100% de atenção para a aula. Por conta desse cansaço, ele acaba não anotando o conteúdo dado em sala. Então, ele desenvolveu o costume de tirar fotos do quadro para poder revisar o conteúdo em casa. No entanto, com certa frequência, quando vai estudar para uma prova ou trabalho importante, ele acaba se perdendo em meio a tantas fotos em sua galeria. Marcelo procura constantemente por uma ferramenta que possam ajudá-lo a se organizar em seus estudos.
 
-Fernando é um professor de Matemática de 45 anos, formado na UFMG. Atualmente, trabalha em duas escolas, uma na região da Pampulha e outra na região do Barreiro. No seu dia-a-dia, ele passa a maior parte do tempo lecionando, e nos fins de semana, Fernando auxilia alguns estudantes com aula particular. Como o cotidiano de Fernando é bastante movimentado, com diversas tarefas, notas e trabalhos, ele necessita de bastante controle, e às vezes, fazer isso sozinho gera bastante sobrecarregamento. Fernando procura constantemente por uma ferramenta que possa organizar e distribuir as tarefas para que o auxilie em seu trabalho e economize seu tempo.
-
-
 Lucas é um pré-adolescente de 13 anos, atualmente ele esta na 8° série do ensino fundamental, ele não tem muitas ocupações durante o seu dia, mas por ser uma jovem bastante ativo e energético ele acaba deixando algumas das matérias da sua escola “escaparem”, sabendo deste problema os pais de Lucas buscam por meios de solucionarem este problema e eles chegaram até o ClassCaptute que ajuda com a organização dos seus estudos com agilidade e praticidade.
 
 
@@ -44,7 +41,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Estudante  | Armazenar, organizar e compartilhar conteúdo produzido em sala | Aumentar a eficiência nos estudos |
-|Professor       | Distribuir atividades e avaliar os alunos através da avaliação por pares | Aumentar a interatividade do aluno e atribuir terefas de forma automatizada |
 
 ## Requisitos
 
@@ -55,14 +51,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir o cadastro dos alunos | ALTA |  |
-|RF-002| Permitir o cadastro dos professores  | ALTA | |
+|RF-002| Permitir a alteração de cadastro inicial dos alunos | ALTA |  |
 |RF-003| Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula | ALTA | |
-|RF-004| Permitir que o professor tenha a possibilidade de avaliar os alunos através da avaliação por pares | MÉDIA | |
+|RF-004| Permitir a visualização de forma intuitiva no menu | ALTA | |
 |RF-005| Permitir que cada aluno possa editar suas informações no perfil | ALTA | |
-|RF-006| Permitir a interação entre alunos e professores através do forum | BAIXA | |
-|RF-007| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
-|RF-008| Permitir que o professor possa distribuir atividades | MÉDIA | |
-|RF-009| Assinatura para ter acesso aos requisitos | ALTA | |
+|RF-006| Permitir que o aluno tenha controle de suas notas  | MEDIA | |
+|RF-007| Permitir a interação entre alunos através do forum | BAIXA | |
+|RF-008| Permitir que o aluno possa compartilhar o seus estudos | MÉDIA | |
+|RF-009| Permitir que o aluno tenha controle de suas faltas em cada disciplina | MÉDIA | |
+|RF-010| Assinatura para ter acesso aos requisitos | ALTA | |
+|RF-011| Permitir que o usuário visualize o site antes de fazer o login | ALTA | |
+|RF-012| Permitir realizar o login para acessar recursos do site | ALTA | |
 
 ### Requisitos não Funcionais
 
@@ -74,7 +73,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| O sistema deve ser acessivel para usuário que usam leitores de tela | ALTA |
 |RNF-005| O sistema deve ser compatível com diferentes navegadores | MÉDIA |
 |RNF-006| O sistema deve permitir a redefinição de senha | ALTA |
-|RNF-009| Assinatura para ter acesso aos requisitos | ALTA | |
+|RNF-007| Assinatura para ter acesso aos requisitos | ALTA | |
 
 ## Restrições
 
@@ -84,7 +83,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| O desenvolvimento do projeto estará limitado a 8 alunos |
+|03| O desenvolvimento do projeto estará limitado a 9 alunos |
 |04| O aplicativo deve se restringir às tecnologias básicas do Front-end |
 |05|	O sistema deve garantir a segurança das informações dos usuários |
 |06|	O sistema deve ser capaz de lidar com um grande volume de acessos simultâneos |
