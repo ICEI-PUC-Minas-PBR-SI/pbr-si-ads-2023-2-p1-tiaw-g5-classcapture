@@ -1,12 +1,90 @@
+body {
+    text-align: inherit;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.dashboard__aside {
+    padding: 1rem;
+    background-color: #8089929e;
+    border-radius: 3px;
+}
+
+.aside__img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+.aside__lista {
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 0 0;
+}
+
+.aside__item {
+    padding: .5rem;
+    font-size: 22px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: var(--bg-white);
+}
+
+.aside__item:hover {
+    background-color: var(--primary);
+    transition: .4s
+}
+
+.aside__item:hover .aside__link {
+    color: var(--bg-white);
+    transition: .4s;
+}
+
+.aside__link {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dashboard__secao {
+    padding: 0 2rem;
+}
+
 .dashboard__grafico {
+    display: inline !important;
     max-width: 1091px;
     max-height: 545px;
     margin: 0 auto;
+    width: 100% !important;
 }
 
 .dashboard__titulo {
     color: var(--secondary);
-    margin: 1rem 0;
+    margin: 2rem 0;
+}
+
+.dashboard__paragrafo {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.dashboard__subtitulo {
+    color: var(--primary);
+    font-size: 1.6rem;
 }
 
 .dashboard__lista {
@@ -26,15 +104,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    flex-grow: 1;
-}
-
-.dashboard__legenda {
-    color: var(--primary);
 }
 
 .dashboard__input {
-    width: 70px;
+    width: 7rem;
     margin-top: .5rem;
     outline-color: var(--secondary);
     border-radius: 3px;
@@ -60,6 +133,148 @@
 
 .botao:hover, .botao:active {
     background-color: var(--primary);
+}
+
+.dashboard__anotacao {
+    padding: 2rem 0;
+}
+
+.anotacao__content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.anotacao__texto {
+    width: 100%;
+    margin: 1rem 0px;
+    height: 185px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    resize: none;
+    outline-color: var(--secondary);
+}
+
+.dashboard__tarefas {
+    margin-top: 2rem;
+}
+
+.tarefas__content {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.tarefas__content-add {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#bt-new-task, #input-task {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#bt-new-task {
+    background-color: var(--secondary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#bt-new-task:hover {
+    background-color: var(--primary);
+}
+
+#bt-new-task svg, #btn-ok svg {
+    fill: var(--bg-white);
+}
+
+#input-task {
+    border-radius: 1rem;
+    width: 70%;
+}
+
+
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+}
+
+#to-do-list li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    opacity: 1;
+    background: rgba(171, 177, 182, 0.3);
+    border-radius: 25px;
+}
+
+#to-do-list li:hover {
+    transition: .4s;
+    padding-left: 4rem;
+    background: rgba(171, 177, 182, 1);
+
+}
+
+#btn-ok {
+    border: none;
+    background-color: var(--third);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    transition: .3s;
+    opacity: 1;
+}
+
+#btn-ok:hover {
+    background-color: var(--secondary);
+}
+
+.navbar-nav {
+    display:none;
+}
+
+.navbar-brand {
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-nav {
+        display:flex;
+    }
+
+    .dashboard__aside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .anotacao__content {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 324px) {
