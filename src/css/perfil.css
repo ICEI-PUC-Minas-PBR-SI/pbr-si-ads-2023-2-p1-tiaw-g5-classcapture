@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--bg-white);
+  }
+
+  .cabecalho {
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;
+
+  }
+
+  .iconX {
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+  }
+
+  .profile-image {
+     width: 100px;
+     height: 150px; 
+     border-radius: 50%;
+     background-color: var(--bg-white);
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+  .profile-options {
+    margin-top: 120px;
+    text-align: left;
+  }
+
+  .option {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .option label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .option input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .rodape {
+    margin-top: 20px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .profile-options {
+      text-align: center;
+    }
+    .option {
+      margin-bottom: 10px;
+    }
+  }
+    
+.input-field {
+    width: 50% !important;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  :root {
+    --black: #000;
+    --primary: #22577A;
+    --secondary: #38A3A5;
+    --third: #57cc99;
+    --bg-white: #F2F2F2;
+}
+
+@font-face {
+    font-family: Questrial-Regular;
+    src: url(../fonts/Questrial-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: var(--bg-white);
+}
+
+main {
+    background-color: var(--bg-white);
+}
+
+header {
+    margin-bottom: 155px;
+}
+
+nav, footer {
+    background-color: var(--primary);
+}
+
+.font-logo {
+    font-family: 'Questrial-Regular';
+}
+
+.class {
+    color: var(--third);
+}
+
+h1 span.teste {
+    background-color: var(--primary);
+    /* color: var(--primary); */
+}
+
+.capture {
+    color: var(--bg-white);
+}
+
+.titulo, .banner__paragrafo {
+    color: var(--primary);
+
+}
+
+.banner__paragrafo {
+    font-weight: 500;
+}
+
+.botao__assinatura {
+    color: var(--bg-white);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary);
+    padding: .5rem 1rem;
+}
+
+.botao__assinatura:active, .botao__assinatura:hover {
+    color: var(--bg-white);
+    background-color: var(--third);
+}
+
+.imgperfil{
+  border-radius: 60%;
+}
+.link{
+  margin-top: 10px;
+  font-size: 2.2em;
+  cursor: pointer;
+  color: var(--third);
+}

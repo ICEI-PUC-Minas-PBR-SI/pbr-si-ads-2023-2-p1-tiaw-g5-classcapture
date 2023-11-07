@@ -8,22 +8,50 @@
 }
 
 .card-body{
-    height: 475px;
+    height: auto;
     width: auto;
 }
 
+.card-header {
+    background-color: var(--primary);
+}
+
+.class, .capture {
+    font-weight: 700;
+} 
+
 .capture{
-    color: #0077B6;
+    color: var(--secondary);
 }
 
 .custom-button {
-    width: 300px; /* Ajuste o valor conforme necessário */
+    width: auto; /* Ajuste o valor conforme necessário */
+    min-width: 90%;
+}
+
+.custom-button {
+    width: auto; /* Ajuste o valor conforme necessário */
+    min-width: 90%;
 }
 
 .btn-primary.custom-button {
-    background-color: #57CC99
+    background-color: var(--third);
+    font-size: 1.2em;
+    font-weight: 700;
+    text-shadow: var(--third);
+}
+
+.btn-primary.custom-button:active, .btn-primary.custom-button:hover {
+    color: var(--bg-white);
+    background-color: var(--primary);
 }
 
 .input-group-text ion-icon {
-    font-size: 24px; /* Tamanho do ícone */
+    font-size: 1.5em; /* Tamanho do ícone */
+}
+
+a:not(.esqueceu-a-senha) {
+    text-decoration: none;
+    color: var(--bg-white);
+    font-size: 1.1em;
 }

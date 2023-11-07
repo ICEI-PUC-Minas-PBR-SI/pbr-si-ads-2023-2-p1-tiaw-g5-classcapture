@@ -20,6 +20,7 @@
 
 body {
     background-color: var(--secondary);
+    text-align: center;
 }
 
 main {
@@ -30,8 +31,20 @@ header {
     margin-bottom: 155px;
 }
 
-nav, footer {
+nav,
+footer {
     background-color: var(--primary);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: var(--black);
+}
+
+.input__faltas {
+    padding: 5px;
+    width: 80px;
 }
 
 .font-logo {
@@ -44,22 +57,22 @@ nav, footer {
 
 h1 span.teste {
     background-color: var(--primary);
-    /* color: var(--primary); */
 }
 
 .capture {
     color: var(--bg-white);
 }
 
-.titulo, .banner__paragrafo {
+.titulo,
+.banner__paragrafo {
     color: var(--primary);
-
 }
 
 .banner__paragrafo {
     font-weight: 500;
 }
 
+.botao__abrir_album,
 .botao__assinatura {
     color: var(--bg-white);
     border-radius: 5px;
@@ -68,7 +81,32 @@ h1 span.teste {
     padding: .5rem 1rem;
 }
 
-.botao__assinatura:active, .botao__assinatura:hover {
+.botao__abrir_album:active,
+.botao__assinatura:active,
+.botao__abrir_album:hover,
+.botao__assinatura:hover {
     color: var(--bg-white);
+    background-color: var(--primary);
+}
+
+.botao__calcular-faltas-restantes {
+    background-color: var(--secondary);
+    color: var(--bg-white);
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.header__faltas {
+    color: var(--primary);
+}
+
+button:hover {
     background-color: var(--third);
+}
+
+#resultado {
+    margin-top: 10px;
+    color: var(--primary);
 }
