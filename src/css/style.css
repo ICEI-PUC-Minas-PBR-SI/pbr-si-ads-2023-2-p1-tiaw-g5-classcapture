@@ -102,10 +102,6 @@ h1 span.teste {
     color: var(--primary);
 }
 
-button:hover {
-    background-color: var(--third);
-}
-
 #resultado {
     margin-top: 10px;
     color: var(--primary);

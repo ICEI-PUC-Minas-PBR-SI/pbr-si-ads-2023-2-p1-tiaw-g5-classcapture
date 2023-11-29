@@ -1,0 +1,291 @@
+.modal-header, .modal-footer {
+    background: var(--primary);
+    color: var(--bg-white);
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
+
+.modal-title {
+    font-size: 1.8rem;
+}
+
+.modal-body {
+    padding: 0;
+    background: var(--bg-white);
+}
+
+.modal__corpo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: bottom 0px right 300px no-repeat url(../img/bg-assinatura.png);
+}
+
+.aside__compra {
+    display: block;
+    background: #f7f9fa;
+}
+
+.secao__compra {
+    box-sizing: border-box;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem 2rem;
+}
+
+.compra__div-preço {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d1d7dc;
+}
+
+.compra_div-total {
+    margin-top: 1rem;
+}
+
+.compra__div-finalizar {
+    margin-top: 1.5rem;
+}
+
+.compra__div-preço, .compra_div-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compra__span {
+    color: #6a6f73;
+    font-size: .8rem;
+}
+
+.compra__span-b {
+    font-weight: 600;
+    color: var(--black);
+    font-size: 1.2rem;
+}
+
+.compra__span-label {
+    flex: 1;
+}
+
+.termo-link {
+    text-decoration: none;
+    display: block;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.campo-fomulario {
+    text-align: justify;
+    padding: 1rem 2rem;
+}
+
+.campo-fomulario--accordion {
+    background: #d6ecfac2;
+}
+
+.campo-fomulario__item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: inherit;
+}
+
+.campo__etiqueta {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.campo__input {
+    display: block;
+    border: 2px solid var(--secondary);
+    border-radius: 4px;
+    padding: 0.65rem 0.75rem;
+    margin: .5rem 0;
+    width: 100%;
+    max-width: 185px;
+}
+
+.campo__input--maior {
+    width: 100%;
+    max-width: 300px;
+}
+
+.mensagem-erro {
+    color: red;
+}
+
+.mensagem-erro--block {
+    display: block;
+}
+
+.campo-invalido {
+    border: 2px solid red;
+}
+
+.campo-validado {
+    border: 2px solid var(--third);
+}
+
+.formulario__botao {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5rem 0;
+    color: var(--bg-white);
+    border: none;
+    background-color: var(--secondary);
+    margin: .5rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.formulario__botao:active,
+.formulario__botao:hover {
+    color: var(--bg-white);
+    background-color: var(--primary);
+}
+
+.termos__texto {
+    line-height: 20px;
+    display: inline;
+}
+
+.pagamento-corpo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bg-white);
+    background-color: var(--secondary);
+}
+
+.pagamento-label {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.icon-pagamento {
+    max-width: 3.5rem;
+    border: 1px solid #d1d7dc;
+    border-radius: 4px;
+    background: #ffffff;
+    margin-right: 1rem;
+}
+
+.qrcode-corpo, .corpo-codigo-barras {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pagamento__qrcode {
+    max-width: 150px;
+    margin: 1rem 0;
+}
+
+.codigo-barras {
+    width: 100%;
+    max-width: 300px;
+}
+
+.cartao__corpo {
+    padding: 1.5rem 6rem;
+}
+
+.cartao-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.span-cartao {
+    width: 100%;
+}
+
+.span-cartoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cartao__namecpf, .cartao__validcvc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+.cartao-label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: 600;
+}
+
+.span-obrigatorio {
+    flex: 1;
+    text-align: right;
+    color: #6a6f73;
+    font-size: .7rem;
+}
+
+.cartao-input {
+    border: 1px solid #2d2f31;
+    border-radius: 0;
+    display: block;
+    padding: 0 1rem;
+    width: 100%;
+    height: 3rem;
+    margin-top: .7rem;
+}
+
+.cartao-input--maior {
+    margin-bottom: 1.3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .aside__compra {
+        width: 100%;
+        margin: 0 2rem;
+    }
+
+    .modal__corpo-flex {
+        background: center no-repeat url(../img/bg-assinatura.png);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cartao__corpo {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .cartao-flex {
+        flex-direction: column;
+    }
+    .modal__corpo-flex {
+        background: none
+    }
+}
