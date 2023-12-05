@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -81,9 +81,9 @@
                         <section class="card-body mb-2">
                             <section class="profile-image">
                                 <figure class="edit-photo">
-                                    <img class="imgperfil" src="/src/img/perfil.png" alt="">
-                                    <a class="link">Editar foto</a>
+                                    <img class="imgperfil w-100" src="/src/img/perfil.png" alt="Imagem de perfil">
                                 </figure>
+                                <a id="edit-profile-photo" class="link fs-4" href="#">Editar foto</a>
                             </section>
                             <section class="profile-options w-100">
                                 <div class="option m-auto">
@@ -98,17 +98,60 @@
                                     <label for="bio">Bio:</label>
                                     <textarea id="bio" name="bio" class="w-100"></textarea>
                                 </div>
-                                <div><a href="#">Configurações de Informações Pessoais</a></div>
+                                <div><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Configurações de
+                                    Informações Pessoais</a></div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h1>Dados Pessoais</h1>
+
+                                                <div class="info">
+                                                    <h2>Contato</h2>
+                                                    <p>
+                                                        E-mail: <span id="email">seuemail@example.com</span>
+                                                        <button onclick="alterarEmail()">Alterar E-mail</button>
+                                                    </p>
+                                                    <p>
+                                                        Telefone: <span id="telefone">(11) 1234-5678</span>
+                                                        <button onclick="alterarTelefone()">Alterar Telefone</button>
+                                                    </p>
+                                                </div>
+
+                                                <div class="info">
+                                                    <h2>Data de Nascimento</h2>
+                                                    <p>
+                                                        Data de Nascimento: <span id="dataNascimento">01/01/2000</span>
+                                                        <button onclick="alterarDataNascimento()">Alterar Data de
+                                                            Nascimento</button>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </section>
                         </section>
-                        <sectionc class="card-footer">
+                        <section class="card-footer">
                             <a href="#" class="button">Salvar</a>
                             <a href="home.html" class="button">Sair</a>
                             <a href="#" class="button">Fale Conosco</a>
-        </section>
-        </div>
-        </div>
-        </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="container-fluid badge p-4 w-100"> <!-- Footer -->
@@ -171,6 +214,7 @@
 
     <script src="/src/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/src/assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="/src/js/perfil.js"> </script>
 </body>
 
 </html>

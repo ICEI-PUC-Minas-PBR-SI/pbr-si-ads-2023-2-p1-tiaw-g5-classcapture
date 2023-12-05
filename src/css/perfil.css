@@ -160,6 +160,7 @@ h1 span.teste {
 .imgperfil{
   border-radius: 60%;
 }
+
 .link{
   margin-top: 10px;
   font-size: 2.2em;
@@ -167,11 +168,29 @@ h1 span.teste {
   color: var(--third);
 }
 
-#msgError {
-  text-align: center;
-  color: #ff0000;
-  background-color: #ffbbbb;
+/* css do modal editar configurações perfil*/
+h1 {
+  color: var(--primary);
+}
+
+.info {
+  margin: 20px;
   padding: 10px;
-  border: 4px;
-  display: none;
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  background-color: var(--third);
+  color: var(--black);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--bg-white);
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary);
 }

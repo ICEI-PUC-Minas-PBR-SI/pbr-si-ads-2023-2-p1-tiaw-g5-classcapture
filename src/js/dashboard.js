@@ -73,3 +73,15 @@ btResetar.addEventListener("click", () => {
 });
 
 atualizaGrafico();
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Quando o documento estiver carregado
+  var img = document.querySelector('#dashboard-profile-photo');
+  var storedImage = localStorage.getItem('profileImage');
+
+  if (storedImage) {
+      // Se houver uma imagem de perfil armazenada
+      // Atualize a imagem de perfil no dashboard
+      img.src = storedImage;
+  }
+});
