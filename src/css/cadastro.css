@@ -65,16 +65,21 @@ a:not(.esqueceu-a-senha) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #msgError {
 =======
 #msgError{
 >>>>>>> 7c9ba0f (Enviando JavaScript do Cadastro)
+=======
+#msgError {
+>>>>>>> d0782cb (corrigindo erro cadastro)
     text-align: center;
     color: #ff0000;
     background-color: #ffbbbb;
     padding: 10px;
     border-radius: 4px;
     display: none;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
   
@@ -84,6 +89,11 @@ a:not(.esqueceu-a-senha) {
   
   #msgSuccess{
 >>>>>>> 7c9ba0f (Enviando JavaScript do Cadastro)
+=======
+}
+  
+#msgSuccess {
+>>>>>>> d0782cb (corrigindo erro cadastro)
     text-align: center;
     color: #00bb00;
     background-color: #bbffbe;
@@ -91,7 +101,11 @@ a:not(.esqueceu-a-senha) {
     border-radius: 4px;
     display: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
   }
 >>>>>>> 7c9ba0f (Enviando JavaScript do Cadastro)
+=======
+}
+>>>>>>> d0782cb (corrigindo erro cadastro)
