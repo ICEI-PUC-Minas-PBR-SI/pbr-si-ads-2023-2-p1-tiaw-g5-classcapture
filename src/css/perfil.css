@@ -166,3 +166,12 @@ h1 span.teste {
   cursor: pointer;
   color: var(--third);
 }
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border: 4px;
+  display: none;
+}

@@ -1,22 +1,51 @@
-window.onload = () => {
-    let username = document.getElementById('username');
-    let password = document.getElementById('password');
-    let button = document.getElementById('entrar')
-    let link = document.createElement("a");
+let button = document.querySelector('#entrar')
+
+button.addEventListener('click', entrar)
+
+
+function entrar() {
+    let username = document.querySelector('#username');
+    let userLabel = document.querySelector('#userLabel');
     
-    button.appendChild(link);
-    link.innerText = 'Entrar';
+    let password = document.querySelector('#password');
+    let passLabel = document.querySelector('#senhaLabel');
 
-    username.addEventListener("change", (event) => {
-        if(event.target.value.length){
-            password.addEventListener("change", (event) => {            
-                console.log(event.target.value.length);
-                link.setAttribute('href', 'home.html');
-            
-            });
-        } else {
-            link.removeAttribute('href');
+    let msgError = document.querySelector('#msgError');
+
+    let listaUser = JSON.parse(localStorage.getItem('listaUser')) || []
+
+    let userValid = {
+        nome: '',
+        user: '',
+        senha: ''
+    }
+    
+    listaUser.forEach((item) => {
+        if(username.value == item.userCad && password.value == item.senhaCad) {
+            userValid = {
+                nome: item.nomeCad,
+                user: item.userCad,
+                senha: item.senhaCad
+            }
         }
+    })
 
-    });
+    if(username.value == userValid.user && password.value == userValid.senha) {
+        setTimeout(() => {
+            window.location.href = '/src/pages/home.html';
+        })
+
+        let token = Math.random().toString(16).substring(2)
+        localStorage.setItem('token', token)
+
+        localStorage.setItem('userLogado', JSON.stringify(userValid))
+    } else {
+        userLabel.setAttribute('style', 'color: red')
+        username.setAttribute('style', 'border-color: red')
+        passLabel.setAttribute('style', 'color: red')
+        password.setAttribute('style', 'border-color: red')
+        msgError.setAttribute('style', 'display: block')
+        msgError.innerHTML = 'Usuário ou senha incorreto'
+        username.focus()
+    }
 }
