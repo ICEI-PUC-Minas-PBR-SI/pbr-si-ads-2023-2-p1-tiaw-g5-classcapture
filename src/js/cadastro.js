@@ -1,8 +1,9 @@
+//visualizar senha
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
-let email = document.querySelector('#nome')
-let labelEmail = document.querySelector('#labelNome')
+let email = document.querySelector('#email')
+let labelEmail = document.querySelector('#labelEmail')
 let validEmail = false
 
 let nome = document.querySelector('#nome')
@@ -52,50 +53,51 @@ nome.addEventListener('keyup', () => {
       nome.setAttribute('style', 'border-color: green')
       validNome = true
     }
-  })
+})
 
-  usuario.addEventListener('keyup', () => {
-    if(usuario.value.length <= 4){
-      labelUsuario.setAttribute('style', 'color: red')
-      labelUsuario.innerHTML = 'Usuário [Insira no minimo 5 caracteres]'
-      usuario.setAttribute('style', 'border-color: red')
-      validUsuario = false
-    } else {
-      labelUsuario.setAttribute('style', 'color: green')
-      labelUsuario.innerHTML = 'Usuário'
-      usuario.setAttribute('style', 'border-color: green')
-      validUsuario = true
-    }
-  })
+usuario.addEventListener('keyup', () => {
+  if(usuario.value.length <= 4){
+    labelUsuario.setAttribute('style', 'color: red')
+    labelUsuario.innerHTML = 'Usuário [Insira no minimo 5 caracteres]'
+    usuario.setAttribute('style', 'border-color: red')
+    validUsuario = false
+  } else {
+    labelUsuario.setAttribute('style', 'color: green')
+    labelUsuario.innerHTML = 'Usuário'
+    usuario.setAttribute('style', 'border-color: green')
+    validUsuario = true
+  }
+})
 
-  senha.addEventListener('keyup', () => {
-    if(senha.value.length <= 5){
-      labelSenha.setAttribute('style', 'color: red')
-      labelSenha.innerHTML = 'Senha *Insira no minimo 6 caracteres'
-      senha.setAttribute('style', 'border-color: red')
-      validSenha = false
-    } else {
-      labelSenha.setAttribute('style', 'color: green')
-      labelSenha.innerHTML = 'Senha'
-      senha.setAttribute('style', 'border-color: green')
-      validSenha = true
-    }
-  })
+senha.addEventListener('keyup', () => {
+  if(senha.value.length <= 5){
+    labelSenha.setAttribute('style', 'color: red')
+    labelSenha.innerHTML = 'Senha *Insira no minimo 6 caracteres'
+    senha.setAttribute('style', 'border-color: red')
+    validSenha = false
+  } else {
+    labelSenha.setAttribute('style', 'color: green')
+    labelSenha.innerHTML = 'Senha'
+    senha.setAttribute('style', 'border-color: green')
+    validSenha = true
+  }
+})
 
-  confirmsenha.addEventListener('keyup', () => {
-    if(senha.value != confirmsenha.value){
-      labelConfirmSenha.setAttribute('style', 'color: red')
-      labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
-      s.setAttribute('style', 'border-color: red')
-      validConfirmSenha = false
-    } else {
-      labelConfirmSenha.setAttribute('style', 'color: green')
-      labelConfirmSenha.innerHTML = 'Confirmar Senha'
-      s.setAttribute('style', 'border-color: green')
-      validConfirmSenha = true
-    }
-  })
+confirmSenha.addEventListener('keyup', () => {
+  if(senha.value != confirmSenha.value){
+    labelConfirmSenha.setAttribute('style', 'color: red')
+    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
+    confirmSenha.setAttribute('style', 'border-color: red')
+    validConfirmSenha = false
+  } else {
+    labelConfirmSenha.setAttribute('style', 'color: green')
+    labelConfirmSenha.innerHTML = 'Confirmar Senha'
+    confirmSenha.setAttribute('style', 'border-color: green')
+    validConfirmSenha = true
+  }
+})
   
+//visualizar senha
 btn.addEventListener('click', () => {
     let inputsenha = document.querySelector('#senha')
 
@@ -108,7 +110,7 @@ btn.addEventListener('click', () => {
 
 
 btnConfirm.addEventListener('click', () => {
-    let inputConfirmSenha = document.querySelector('#confirmsenha')
+    let inputConfirmSenha = document.querySelector('#confirmSenha')
 
     if (inputConfirmSenha.getAttribute('type') == 'password') {
         inputConfirmSenha.setAttribute('type', 'text')
@@ -116,37 +118,36 @@ btnConfirm.addEventListener('click', () => {
         inputConfirmSenha.setAttribute('type', 'password')
     }
 })
+//fim visualizar senha
 
 function cadastrar(){
-    if(validEmail && validNome && validUsuario && validSenha && validConfirmSenha){
-      let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
-      
-      listaUser.push(
-      {
-        emailCad: email.value,
-        nomeCad: nome.value,
-        userCad: usuario.value,
-        senhaCad: senha.value
-      }
-      )
-      
-      localStorage.setItem('listaUser', JSON.stringify(listaUser))
-      
-     
-      msgSuccess.setAttribute('style', 'display: block')
-      msgSuccess.innerHTML = '<strong>Cadastrado com sucesso!</strong>'
-      msgError.setAttribute('style', 'display: none')
-      msgError.innerHTML = ''
-      
-      setTimeout(()=>{
-          window.location.href = 'http://127.0.0.1:5500/src/pages/login.html'
-      }, 3000)
+  if(validEmail && validNome && validUsuario && validSenha && validConfirmSenha){
+    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     
-      
-    } else {
-      msgError.setAttribute('style', 'display: block')
-      msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
-      msgSuccess.innerHTML = ''
-      msgSuccess.setAttribute('style', 'display: none')
-    }
+    listaUser.push(
+    {
+      emailCad: email.value,
+      nomeCad: nome.value,
+      userCad: usuario.value,
+      senhaCad: senha.value
+    })
+    
+    localStorage.setItem('listaUser', JSON.stringify(listaUser))
+    
+    
+    msgSuccess.setAttribute('style', 'display: block')
+    msgSuccess.innerHTML = '<strong>Cadastrado com sucesso!</strong>'
+    msgError.setAttribute('style', 'display: none')
+    msgError.innerHTML = ''
+    
+    setTimeout(() => {
+      window.location.href = '/src/pages/login.html';
+    })
+    
+  } else {
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
+    msgSuccess.innerHTML = ''
+    msgSuccess.setAttribute('style', 'display: none')
   }
+}
