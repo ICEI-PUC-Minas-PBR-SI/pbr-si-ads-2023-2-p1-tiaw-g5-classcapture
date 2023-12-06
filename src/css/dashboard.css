@@ -81,6 +81,11 @@ body {
     color: var(--primary);
     font-size: 18px;
 }
+.dashboard-profile-photo{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
 
 .dashboard__subtitulo {
     color: var(--primary);
