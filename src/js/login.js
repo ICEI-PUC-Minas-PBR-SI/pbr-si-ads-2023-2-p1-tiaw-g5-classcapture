@@ -3,7 +3,8 @@ let button = document.querySelector('#entrar')
 button.addEventListener('click', entrar)
 
 
-function entrar() {
+function entrar(event) {
+    event.preventDefault();
     let username = document.querySelector('#username');
     let userLabel = document.querySelector('#userLabel');
     
@@ -11,6 +12,12 @@ function entrar() {
     let passLabel = document.querySelector('#senhaLabel');
 
     let msgError = document.querySelector('#msgError');
+
+    if (!username.value || !password.value) {
+        msgError.setAttribute('style', 'display: block')
+        msgError.innerHTML = 'Por favor, preencha todos os campos.';
+        return;
+    }
 
     let listaUser = JSON.parse(localStorage.getItem('listaUser')) || []
 
