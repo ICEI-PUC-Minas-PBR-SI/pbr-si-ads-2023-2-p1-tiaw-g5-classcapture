@@ -17,10 +17,24 @@
 	<link rel="stylesheet" href="/src/css/assinatura.css">
 </head>
 
+<!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Atividade TIAW">
+    <meta name="author" content="Carlos Henrique Pereira Vieira, Bruno Alexandre Anastacio de Almeida, Daniel de Paula Godinho, Felipe Simão da Silva, Guilherme Augusto Lopes Campos, Igor Emanuel da Silva, João Victor Silva Thomazi, Otávio Martins da Silva Lima, Pedro Henrique Glicério Simões">
+    <title>ClassCapture - Home</title>
+    <link rel="shortcut icon" href="/src/img/logo2.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head> -->
+
 <body class="container-fluid">
 	<header>
-		<nav
-			class="pe-5 fixed-top navbar navbar-expand-lg badge bg-gradient m-auto justify-content-sm-evenly container-fluid border-bottom border-body w-100 py-3"
+		<nav class="pe-5 fixed-top navbar navbar-expand-lg badge bg-gradient m-auto justify-content-sm-evenly container-fluid border-bottom border-body w-100 py-3"
 			data-bs-theme="dark">
 			<div class="container-fluid row text-sm-center m-auto pe-5">
 				<a class="navbar-brand col-sm-2 w-50" href="#">
@@ -29,56 +43,29 @@
 							class="capture fs-3">CAPTURE</span></p>
 				</a>
 				<button class="navbar-toggler col-sm-1 w-25 text-black" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon text-black"></span>
 				</button>
 				<div class="collapse navbar-collapse col-sm-5 text-black" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0 text-black">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 text-black align-items-baseline">
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="faltas.html">Faltas</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="perfil.html">Perfil</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="cadastro.html">Cadastro</a>
-						</li>
 						<li class="nav-item" title="Sair">
-							<button id="botaoSair">
-								<a class="nav-link active" aria-current="page">
+							<a class="nav-link active d-flex flex-row align-items-baseline" aria-current="page"
+								href="/src/index.html">
+								Sair
+								<figure class="ms-2 fs-4">
 									<svg xmlns="http://www.w3.org/2000/svg" height="1em"
 										viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
 										<path
 											d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
 									</svg>
-								</a>
-							</button>
+								</figure>
+							</a>
 						</li>
 					</ul>
-					<figure class="mt-3 me-1 fs-6">
-						<svg xmlns="http://www.w3.org/2000/svg" height="1em"
-							viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-							<style>
-								svg {
-									fill: #22577a
-								}
-							</style>
-							<path
-								d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-						</svg>
-						<input class="form-control-sm text-bg-light" type="search" name="pesquisar" id="floatingInputGroup1"
-							placeholder="pesquise aqui...">
-					</figure>
 				</div>
 			</div>
 		</nav>
@@ -87,8 +74,13 @@
 		<section class="container-sm">
 			<div class="banner__card">
 				<p id="logado"></p>
-				<h1 class="titulo">Organize com <span class="teste p-2 rounded"><span class="class fs-3 pe-2">CLASS</span><span
-							class="capture fs-3">CAPTURE</span></span></h1>
+				<h1 class="titulo">
+					Organize com
+					<span class="teste p-2 rounded">
+						<span class="class fs-3 pe-2">CLASS</span>
+						<span class="capture fs-3">CAPTURE</span>
+					</span>
+				</h1>
 				<p class="banner__paragrafo">Com nosso plano Premium, você tem acesso a várias ferramentas que irão
 					facilitar sua vida escolar!</p>
 				<!-- Botão assinatura modal -->
@@ -102,7 +94,8 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<h1 class="modal-title" id="exampleModalLabel">Faça sua assinatura</h1>
-									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-label="Close"></button>
 								</div>
 								<div class="modal-body">
 									<div class="modal__corpo-flex">
@@ -113,32 +106,36 @@
 											</legend>
 											<div class="campo-fomulario__item">
 												<label for="input-nome" class="campo__etiqueta">Nome</label>
-												<input type="text" id="input-nome" name="nome" class="campo__input campo__input--maior"
-													minlength="3" required placeholder="Digite seu nome">
+												<input type="text" id="input-nome" name="nome"
+													class="campo__input campo__input--maior" minlength="3" required
+													placeholder="Digite seu nome">
 												<span class="mensagem-erro"></span>
 											</div>
 											<div class="campo-fomulario__item">
 												<label for="input-email" class="campo__etiqueta">Email</label>
-												<input type="email" id="input-email" name="email" class="campo__input campo__input--maior"
+												<input type="email" id="input-email" name="email"
+													class="campo__input campo__input--maior"
 													placeholder="seuemail@example.com" minlength="4" required>
 												<span class="mensagem-erro"></span>
 											</div>
 											<div class="campo-fomulario__item">
 												<label for="input-nascimento" class="campo__etiqueta">Data de
 													nascimento</label>
-												<input type="date" id="input-nascimento" name="nascimento" class="campo__input" required>
+												<input type="date" id="input-nascimento" name="nascimento"
+													class="campo__input" required>
 												<span class="mensagem-erro"></span>
 											</div>
 											<div class="campo-fomulario__item">
 												<label for="input-celular" class="campo__etiqueta">Celular</label>
-												<input type="tel" id="input-celular" name="celular" class="campo__input" maxlength="15"
-													placeholder="(00) 0 0000-0000" required>
+												<input type="tel" id="input-celular" name="celular" class="campo__input"
+													maxlength="15" placeholder="(00) 0 0000-0000" required>
 												<span class="mensagem-erro"></span>
 											</div>
 											<div class="campo-fomulario__item">
 												<label for="input-cpf" class="campo__etiqueta">CPF</label>
-												<input type="text" id="input-cpf" name="cpf" class="campo__input" minlength="11" maxlength="14"
-													placeholder="123.456.789-00" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
+												<input type="text" id="input-cpf" name="cpf" class="campo__input"
+													minlength="11" maxlength="14" placeholder="123.456.789-00"
+													pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
 												<span class="mensagem-erro"></span>
 											</div>
 										</fieldset>
@@ -155,11 +152,13 @@
 													<span class="compra__span compra__span-b">R$ 9,99</span>
 												</div>
 												<div class="compra__div-finalizar">
-													<span class="compra__span compra__span-l">Ao concluir sua compra, você concorda com estes <a
-															href="" class="termo-link">Termos de Serviço.</a></span>
-													<input type="submit" value="Avançar" class="formulario__botao" id="enviar" data-botao-enviar
-														data-bs-dismiss="modal">
-													<span class="compra__span compra__span-l">Garantia de devolução do dinheiro em 30 dias</span>
+													<span class="compra__span compra__span-l">Ao concluir sua compra,
+														você concorda com estes <a href="" class="termo-link">Termos de
+															Serviço.</a></span>
+													<input type="submit" value="Avançar" class="formulario__botao"
+														id="enviar" data-botao-enviar data-bs-dismiss="modal">
+													<span class="compra__span compra__span-l">Garantia de devolução do
+														dinheiro em 30 dias</span>
 											</section>
 										</aside>
 									</div>
@@ -173,9 +172,11 @@
 												<!--Pix-->
 												<div class="accordion-item">
 													<h2 class="accordion-header">
-														<button class="accordion-button" type="button" data-bs-toggle="collapse"
-															data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-															<img src="../img/icons/pix-icon.svg" class="icon-pagamento" alt="">
+														<button class="accordion-button" type="button"
+															data-bs-toggle="collapse" data-bs-target="#collapseOne"
+															aria-expanded="true" aria-controls="collapseOne">
+															<img src="/src/img/icons/pix-icon.svg"
+																class="icon-pagamento" alt="">
 															<span class="pagamento-label">Pix</span>
 														</button>
 													</h2>
@@ -184,7 +185,9 @@
 														<div class="accordion-body">
 															<div class="qrcode-corpo">
 																<h5>Pague com QR Code</h5>
-																<img src="../img/qrcode-gato.png" class="pagamento__qrcode" alt="Pagamento em QR Code">
+																<img src="/src/img/qrcode-gato.png"
+																	class="pagamento__qrcode"
+																	alt="Pagamento em QR Code">
 															</div>
 														</div>
 													</div>
@@ -192,61 +195,80 @@
 												<!--Cartão-->
 												<div class="accordion-item">
 													<h2 class="accordion-header">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-															data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														<button class="accordion-button collapsed" type="button"
+															data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+															aria-expanded="false" aria-controls="collapseTwo">
 															<div class="cartao-flex">
 																<span class="span-cartao">
-																	<img src="../img/icons/card-default.svg" class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-default.svg"
+																		class="icon-pagamento" alt="">
 																	<span class="pagamento-label">Cartão de crédito
 																		/débito</span>
 																</span>
 																<span class="span-cartoes">
-																	<img src="../img/icons/card-visa.svg" class="icon-pagamento" alt="">
-																	<img src="../img/icons/card-mastercard.svg" class="icon-pagamento" alt="">
-																	<img src="../img/icons/card-amex.svg" class="icon-pagamento" alt="">
-																	<img src="../img/icons/card-elo.svg" class="icon-pagamento" alt="">
-																	<img src="../img/icons/card-hiper.svg" class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-visa.svg"
+																		class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-mastercard.svg"
+																		class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-amex.svg"
+																		class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-elo.svg"
+																		class="icon-pagamento" alt="">
+																	<img src="/src/img/icons/card-hiper.svg"
+																		class="icon-pagamento" alt="">
 																</span>
 															</div>
 														</button>
 													</h2>
-													<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+													<div id="collapseTwo" class="accordion-collapse collapse"
+														data-bs-parent="#accordionExample">
 														<div class="accordion-body">
 															<!--Cartão Corpo-->
 															<div class="cartao__corpo">
 																<div class="cartao__namecpf">
 																	<div class="cartao__namecpf-item">
-																		<label class="cartao-label" for="cartao-nome">Nome no cartão<span
+																		<label class="cartao-label"
+																			for="cartao-nome">Nome no cartão<span
 																				class="span-obrigatorio">Obrigatório</span></label>
-																		<input class="cartao-input" type="text" id="cartao-nome" name="cartao-nome"
+																		<input class="cartao-input" type="text"
+																			id="cartao-nome" name="cartao-nome"
 																			placeholder="Nome no cartão">
 																	</div>
 																	<div class="cartao__namecpf-item">
-																		<label class="cartao-label" for="cartao-cpf">CPF/CNPJ<span
+																		<label class="cartao-label"
+																			for="cartao-cpf">CPF/CNPJ<span
 																				class="span-obrigatorio">Obrigatório</span></label>
-																		<input class="cartao-input" type="text" id="cartao-cpf" name="cartao-cpf"
+																		<input class="cartao-input" type="text"
+																			id="cartao-cpf" name="cartao-cpf"
 																			placeholder="CPF/CNPJ">
 																	</div>
 																</div>
 																<div>
 																	<div class="cartao__numero">
-																		<label class="cartao-label" for="cartao-numero">Número do cartão<span
+																		<label class="cartao-label"
+																			for="cartao-numero">Número do cartão<span
 																				class="span-obrigatorio">Obrigatório</span></label>
-																		<input class="cartao-input cartao-input--maior" type="text" id="cartao-numero"
-																			name="cartao-numero" placeholder="1234 5678 9012 3456">
+																		<input class="cartao-input cartao-input--maior"
+																			type="text" id="cartao-numero"
+																			name="cartao-numero"
+																			placeholder="1234 5678 9012 3456">
 																	</div>
 																</div>
 																<div class="cartao__validcvc">
 																	<div class="cartao__validcvc-item">
-																		<label class="cartao-label" for="cartao-prazo">Prazo<span
+																		<label class="cartao-label"
+																			for="cartao-prazo">Prazo<span
 																				class="span-obrigatorio">Obrigatório</span></label>
-																		<input class="cartao-input" type="text" id="cartao-prazo" name="cartao-prazo"
+																		<input class="cartao-input" type="text"
+																			id="cartao-prazo" name="cartao-prazo"
 																			placeholder="MM/AA">
 																	</div>
 																	<div class="cartao__validcvc-item">
-																		<label class="cartao-label" for="cartao-cvc">CVC/CVV<span
+																		<label class="cartao-label"
+																			for="cartao-cvc">CVC/CVV<span
 																				class="span-obrigatorio">Obrigatório</span></label>
-																		<input class="cartao-input" type="text" id="cartao-cvc" name="cartao-cvc"
+																		<input class="cartao-input" type="text"
+																			id="cartao-cvc" name="cartao-cvc"
 																			placeholder="CVC">
 																	</div>
 																</div>
@@ -257,9 +279,11 @@
 												<!--Boleto-->
 												<div class="accordion-item">
 													<h2 class="accordion-header">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-															data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-															<img src="../img/icons/hpp-primeiropay-boleto.svg" class="icon-pagamento" alt="">
+														<button class="accordion-button collapsed" type="button"
+															data-bs-toggle="collapse" data-bs-target="#collapseThree"
+															aria-expanded="false" aria-controls="collapseThree">
+															<img src="/src/img/icons/hpp-primeiropay-boleto.svg"
+																class="icon-pagamento" alt="">
 															<span class="pagamento-label">Boleto bancário</span>
 														</button>
 													</h2>
@@ -268,7 +292,8 @@
 														<div class="accordion-body">
 															<div class="corpo-codigo-barras">
 																<h5>Leia o código de barras</h5>
-																<img src="../img/codebarras.jpg" alt="" class="codigo-barras">
+																<img src="/src/img/codebarras.jpg" alt=""
+																	class="codigo-barras">
 															</div>
 														</div>
 													</div>
@@ -299,110 +324,32 @@
 				<img class="w-100" src="/src/img/banner.png" alt="banner">
 			</figure>
 		</section>
-		<h3 class="titulo">Capturar em:</h3>
-		<section id="carouselExampleAutoplaying" class="carousel slide w-auto mt-3" data-bs-ride="carousel">
-			<div class="carousel-indicators mt-5 bg-primary bg-gradient rounded-5">
-				<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
-					aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
-					aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
-					aria-label="Slide 3"></button>
-			</div>
-			<div class="carousel-inner w-75 h-auto container-fluid mb-5">
-				<div class="carousel-item active" data-bs-interval="5000">
-					<div class="cards-wrapper row container-fluid w-auto justify-content-center">
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Algorítmos e Técnicas de Programação</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Desenvolvimento de Interfaces Web</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Filosofia</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<div class="cards-wrapper row container-fluid w-auto justify-content-center">
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Fundamentos de Análise e Desenvolvimento de Sistemas</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Introdução a Computação</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Trabalho Interdisciplinar de Interfaces Web</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<div class="cards-wrapper row container-fluid w-auto justify-content-center">
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Fundamentos de Análise e Desenvolvimento de Sistemas</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Introdução a Compuntação</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-						<div class="card col-md-3 mw-75
-                         container-fluid p-sm-2 border-bottom border-secondary-subtle">
-							<div class="card-body">
-								<h5 class="card-title">Trabalho Interdisciplinar de Interfaces Web</h5>
-								<a href="#" class="botao__abrir_album btn btn-primary">Abrir Album</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<button class="carousel-control-prev me-5 p-md-4 m-3" type="button" data-bs-target="#carouselExampleAutoplaying"
-				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon bg-primary rounded-5" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next p-md-4" type="button" data-bs-target="#carouselExampleAutoplaying"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon bg-primary rounded-5" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</section>
+		<h3 class="titulo badge fs-1">Navegar para:</h3>
+		<aside id="carouselExampleAutoplaying" class="carousel slide w-auto mt-3 bg-gradient" data-bs-ride="carousel">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row">
+				<li class="botao__assinatura m-1 text-white fw-bold">
+					<a class="nav-link active" aria-current="page" href="faltas.html">Faltas</a>
+				</li>
+				<li class="botao__assinatura m-1 text-white fw-bold">
+					<a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+				</li>
+				<li class="botao__assinatura m-1 text-white fw-bold">
+					<a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+				</li>
+				<li class="botao__assinatura m-1 text-white fw-bold">
+					<a class="nav-link active" aria-current="page" href="perfil.html">Perfil</a>
+				</li>
+				<li class="botao__assinatura m-1 text-white fw-bold">
+					<a class="nav-link active" aria-current="page" href="cadastro.html">Cadastro</a>
+				</li>
+			</ul>
+		</aside>
 	</main>
-	<footer class="container-fluid badge p-4 w-100
-    "> <!-- Footer -->
+	<footer class="container-fluid badge p-4 w-100"> <!-- Footer -->
 		<section class="container-fluid w-auto justify-content-center flex-wrap row m-auto">
 			<div class="container-fluid fw-lighter col-sm-7 bg-gradient rounded-2 p-auto text-black">
-				<p class="fs-6 text-wrap lh-base z-0 shadow p-1">ClassCapture Todos os direitos reservados &copy;.</p>
+				<p class="fs-6 text-wrap lh-base z-0 shadow p-1">ClassCapture Todos os direitos reservados
+					&copy;.</p>
 			</div>
 			<div class="container-fluid fw-lighter col-sm-3 bg-gradient rounded-2 p-auto">
 				<p class="text-center text-wrap lh-base p-1 d-flex justify-content-evenly">
