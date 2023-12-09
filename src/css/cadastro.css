@@ -55,3 +55,29 @@ a:not(.esqueceu-a-senha) {
     color: var(--bg-white);
     font-size: 1.1em;
 }
+
+.olho{
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+  
+#msgSuccess {
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
