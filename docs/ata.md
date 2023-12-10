@@ -18,7 +18,7 @@
 * Guilherme Augusto Lopes Campos: Login JS, Home - Funcionalidade botão de assinatura, Validação do formulário. (JavaScript)
 * Igor Emanuel da Silva: Trocar foto de perfil, Perfil concluir página (JavaScript)
 * João Victor Silva Thomazi: Perfil - Configurações de Informações Pessoais (JavaScript)
-* Otávio Martins da Silva Lima: melhoria do KanBan
+* Otávio Martins da Silva Lima: Melhoria do KanBan
 * Pedro Henrique Glicério Simões: Cadastro JS, Validação do formulário (JavaScript)
 * Carlos Henrique Pereira Vieira: Fez a refatoração do navegador das páginas e integração das branchs e adequações finais e apoio nos scripts de JavaScript e melhoria do KanBan.
 
