@@ -14,11 +14,11 @@
 ## Anotações
 * Bruno Alexandre Anastacio de Almeida: Fez toda a documentação e testes, incluindo vídeos e o teste end to end e sistemas de teste com evidências.
 * Daniel de Paula Godinho: N/A
-* Felipe Simão da Silva: Adicionar Galeria, Galeria - Interação com imagens, Galeria - Funcionalidade da barra lateral, Galeria - Clicar em próximo (JavaScript)
+* Felipe Simão da Silva: Adicionar Galeria, Galeria - Interação com imagens (JavaScript)
 * Guilherme Augusto Lopes Campos: Login JS, Home - Funcionalidade botão de assinatura, Validação do formulário. (JavaScript)
 * Igor Emanuel da Silva: Trocar foto de perfil, Perfil concluir página (JavaScript)
 * João Victor Silva Thomazi: Perfil - Configurações de Informações Pessoais (JavaScript)
-* Otávio Martins da Silva Lima: N/A
+* Otávio Martins da Silva Lima: melhoria do KanBan
 * Pedro Henrique Glicério Simões: Cadastro JS, Validação do formulário (JavaScript)
 * Carlos Henrique Pereira Vieira: Fez a refatoração do navegador das páginas e integração das branchs e adequações finais e apoio nos scripts de JavaScript e melhoria do KanBan.
 
@@ -30,7 +30,7 @@
 * Guilherme Augusto Lopes Campos (Feito)
 * Igor Emanuel da Silva (Feito)
 * João Victor Silva Thomazi (Feito)
-* Otávio Martins da Silva Lima (N/A)
+* Otávio Martins da Silva Lima (Feito)
 * Pedro Henrique Glicério Simões (Feito)
 * Carlos Henrique Pereira Vieira (Feito)
 
