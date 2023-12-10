@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/src/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/cadastro.css">
@@ -30,58 +32,62 @@
                         </section>
                         <section class="card-body mb-2">
                             <h2 class="text-center mb-3 fs-3">Cadastrar Usuário</h2>
+                            <div id='msgError'></div>
+                            <div id='msgSuccess'></div>
                             <form>
                                 <div class="mt-1 mb-1">
-                                    <label for="emailPhone" class="form-label">Email</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="emailPhone">
+                                    <label for="email" class="form-label" id="labelEmail">Email</label>
+                                    <div class="input-group w-100 p-3">
+                                        <input type="text" class="form-control" id="email">
                                         <div class="input-group-text">
                                             <ion-icon name="mail-sharp"></ion-icon>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="mt-1 mb-1">
-                                    <label for="fullName" class="form-label">Nome Completo</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="fullName">
+                                    <label for="nome" class="form-label" id="labelNome">Nome Completo</label>
+                                    <div class="input-group w-100 p-3">
+                                        <input type="text" class="form-control" id="nome" required>
                                         <div class="input-group-text">
                                             <ion-icon name="id-card-sharp"></ion-icon>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="mt-1 mb-1">
-                                    <label for="username" class="form-label">Nome de Acesso</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="username">
+                                    <label for="usuario" class="form-label" id="labelUsuario">Nome de Acesso</label>
+                                    <div class="input-group w-100 p-3">
+                                        <input type="text" class="form-control" id="usuario">
                                         <div class="input-group-text">
                                             <ion-icon name="person-sharp"></ion-icon>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="mt-1 mb-1">
-                                    <label for="password" class="form-label">Senha</label>
-                                    <div class="input-group">
-                                        <input type="password" class="form-control" id="password">
+                                    <label for="senha" class="form-label" id="labelSenha">Senha</label>
+                                    <div class="input-group w-100 p-3">
+                                        <input type="password" class="form-control" id="senha">
+                                        <ion-icon name="eye" class="olho" id="verSenha"></ion-icon>
                                         <div class="input-group-text">
                                             <ion-icon name="lock-closed-sharp"></ion-icon>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="mt-1 mb-1">
-                                    <label for="confirmPassword" class="form-label">Confirmação de Senha</label>
-                                    <div class="input-group">
-                                        <input type="password" class="form-control" id="confirmPassword">
+                                    <label for="confirmSenha" class="form-label" id="labelConfirmSenha">Confirmação de Senha</label>
+                                    <div class="input-group w-100 p-3">
+                                        <input type="password" class="form-control" id="confirmSenha">
+                                        <ion-icon name="eye" class="olho" id="verConfirmSenha"></ion-icon>
                                         <div class="input-group-text">
                                             <ion-icon name="lock-closed-sharp"></ion-icon>
                                         </div>
                                     </div>
                                 </div>
-                                <p class="text-center fw-semibold">Ao se cadastrar, você concorda com nossos Termos e
+                                <p class="text-center fw-semibold fs-6">Ao se cadastrar, você concorda com nossos Termos e
                                     Política de
                                     Privacidade.</p>
                                 <div class="d-flex flex-column align-items-center mb-2">
-                                    <button type="submit" class="btn btn-primary custom-button">
-                                        <a href="home.html">Finalizar Cadastro</a>
+                                    <button onclick='cadastrar()' type="submit" class="btn btn-primary custom-button">
+                                        Finalizar Cadastro
                                     </button>
                                 </div>
                                 <div class="d-flex flex-column align-items-center">
@@ -160,5 +166,7 @@
     <script src="/src/assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/src/js/cadastro.js"></script>
+    
 
 </body>

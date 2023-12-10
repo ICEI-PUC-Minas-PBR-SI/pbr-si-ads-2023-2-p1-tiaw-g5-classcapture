@@ -34,30 +34,26 @@ body {
 
 .aside__item {
     padding: .5rem;
-    font-size: 22px;
-    width: 90%;
+
     text-align: center;
     margin-bottom: 1rem;
     border: 1px solid var(--primary);
     border-radius: 10px;
     background-color: var(--bg-white);
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .aside__item:hover {
     background-color: var(--primary);
-    transition: .4s
-}
-
-.aside__item:hover .aside__link {
     color: var(--bg-white);
-    transition: .4s;
+    transition: .4s
 }
 
 .aside__link {
     text-decoration: none;
-    color: var(--primary);
-    font-size: 20px;
-    font-weight: 500;
+    width: 100%;
 }
 
 .dashboard__secao {
