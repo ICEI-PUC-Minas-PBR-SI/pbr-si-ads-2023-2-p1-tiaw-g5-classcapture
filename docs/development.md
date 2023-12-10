@@ -42,14 +42,15 @@ Aqui estão os requisitos funcionais e não funcionais relacionados ao escopo do
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
-| Título         | Texto             | User do usuário                           | @teste                                  |
-| Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                             |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
+| Conteúdo       | Texto             | Nome de acesso do usuário                         | brunoaalm                            |
+| Id do usuário  | Numero (Inteiro)  | Senha do usuário                          | ****** (senha)                                            |
 
 ## Cadastro
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 001                                              |
-| Título         | Texto             | User do usuário                           | Bruno Almeida                                 |
+| Título         | Texto             | Nome completo do usuário                           | Bruno Almeida                                 |
 | Conteúdo       | Texto             | E-mail do usuário                         | nome@outlook.com                            |
-| Id do usuário  | Numero (Inteiro)  | senha do usuário                          | ****** (senha)                                            |
+| Conteúdo       | Texto             | Nome de acesso do usuário                         | brunoaalm                            |
+| Id do usuário  | Numero (Inteiro)  | Senha do usuário                          | ****** (senha)                                            |
+| Id do usuário  | Numero (Inteiro)  | Confirmação senha do usuário                          | ****** (senha)                                            |
