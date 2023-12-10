@@ -138,7 +138,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-03 - Tela Home (Assinatura e redirecionamento a outras páginas)*                                         |
 |---|---|
 |Requisito Associado | RF-011	Permitir que o usuário visualize o site antes de fazer o login (Tela inicial).|
-|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/m882z5hhutmi99bo1v2ro/home_telas.webm?rlkey=zz27pbe82vn5r3836ejftqz7i&dl=0 | | https://www.dropbox.com/scl/fi/ys4yi0kd3zhrufnqz3hpo/home_assinatura.webm?rlkey=ovq6jm6utcz5jawqszf0vuf4z&dl=0 | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/m882z5hhutmi99bo1v2ro/home_telas.webm?rlkey=zz27pbe82vn5r3836ejftqz7i&dl=0 - https://www.dropbox.com/scl/fi/ys4yi0kd3zhrufnqz3hpo/home_assinatura.webm?rlkey=ovq6jm6utcz5jawqszf0vuf4z&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-04 - Tela Dashboard (Tarefas, gráfico, anotações e foto perfil)*                                         |
 |---|---|
