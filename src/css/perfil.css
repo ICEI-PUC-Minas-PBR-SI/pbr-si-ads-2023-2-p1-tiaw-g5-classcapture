@@ -21,7 +21,6 @@ body {
      width: 100px;
      height: 150px; 
      border-radius: 50%;
-     background-color: var(--bg-white);
      margin: 0 auto;
      display: flex;
      flex-direction: column;
