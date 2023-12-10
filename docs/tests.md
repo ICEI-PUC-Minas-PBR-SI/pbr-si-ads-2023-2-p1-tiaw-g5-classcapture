@@ -148,12 +148,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-05 - Tela Perfil (Trocar foto perfil e dados cadastro)*                                         |
 |---|---|
 |Requisito Associado | RF-005	Permitir que cada aluno possa editar suas informações no perfil (Perfil).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/upt4phn9pxu7qqw2wdl1x/perfil-foto.webm?rlkey=axe6ey3sb4hqq6c844k5w0t8b&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-06 - Tela Galeria (Adicionando imagens na pasta da galeria)*                                         |
 |---|---|
 |Requisito Associado | RF-003	Permitir a criação de pastas para que os alunos possa armazenar os insumos produzidos em aula (Galeria).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/e3xr1uhv78v5rudxle48w/galeria.webm?rlkey=q73pyccdcacpbfw3duc3hhfrq&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-07 - Tela Faltas (Adicionando qtde. de aulas e faltas totais de uma matéria)*                                         |
 |---|---|
@@ -163,7 +163,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-08 - Teste End to end*                                         |
 |---|---|
 |Descrição: | Testando todo o site e funcionalidades por completo.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/t1yyfcvue2c9toacwk175/endtoend.webm?rlkey=fycn0qdd9i9qjl8360d39vnpa&dl=0 | 
 
 
 
