@@ -128,22 +128,22 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta (usuário autenticado e não autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-001	Permitir o cadastro dos alunos (Cadastro).|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/4jv2g7zih2u7dx27d2id7/cadastro.webm?rlkey=gdih7tzrd6fqejhy7iq2eompm&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado e não autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-012	Permitir realizar o login para acessar recursos do site (Login).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/ocek6m6fccts77ln9hyhp/login.webm?rlkey=uqvlznuzmq4611ysjvi22i3xf&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-03 - Tela Home (Assinatura e redirecionamento a outras páginas)*                                         |
 |---|---|
 |Requisito Associado | RF-011	Permitir que o usuário visualize o site antes de fazer o login (Tela inicial).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/m882z5hhutmi99bo1v2ro/home_telas.webm?rlkey=zz27pbe82vn5r3836ejftqz7i&dl=0 | | https://www.dropbox.com/scl/fi/ys4yi0kd3zhrufnqz3hpo/home_assinatura.webm?rlkey=ovq6jm6utcz5jawqszf0vuf4z&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-04 - Tela Dashboard (Tarefas, gráfico, anotações e foto perfil)*                                         |
 |---|---|
 |Requisito Associado | RF-006	Permitir que o aluno tenha controle de suas notas (Dashboard).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/ii7beku8rn4pgxb8iy06l/dashboard.webm?rlkey=xckw9sinwethqe8z1xgp9vg2b&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-05 - Tela Perfil (Trocar foto perfil e dados cadastro)*                                         |
 |---|---|
@@ -158,7 +158,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-07 - Tela Faltas (Adicionando qtde. de aulas e faltas totais de uma matéria)*                                         |
 |---|---|
 |Requisito Associado | RF-009	Permitir que o aluno tenha controle de suas faltas em cada disciplina (Controle de faltas).|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://www.dropbox.com/scl/fi/biky5uglhb7zbxm52qyzs/faltas.webm?rlkey=y8i2o1wn8qdd9pjfblvrhz2zp&dl=0 | 
 
 |*Caso de Teste*                                 |*TC-08 - Teste End to end*                                         |
 |---|---|
