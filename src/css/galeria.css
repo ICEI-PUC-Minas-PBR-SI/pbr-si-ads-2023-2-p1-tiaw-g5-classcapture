@@ -22,11 +22,15 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
+    padding: 0;
 }
 
 .photo-frame img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
 }
 
 .photo-grid {
