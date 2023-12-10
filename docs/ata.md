@@ -12,7 +12,7 @@
 * Carlos Henrique Pereira Vieira
 
 ## Anotações
-* Bruno Alexandre Anastacio de Almeida: Fez toda a documentação e testes, incluindo vídeos e o teste end to end.
+* Bruno Alexandre Anastacio de Almeida: Fez toda a documentação e testes, incluindo vídeos e o teste end to end e sistemas de teste com evidências.
 * Daniel de Paula Godinho: N/A
 * Felipe Simão da Silva: Adicionar Galeria, Galeria - Interação com imagens, Galeria - Funcionalidade da barra lateral, Galeria - Clicar em próximo (JavaScript)
 * Guilherme Augusto Lopes Campos: Login JS, Home - Funcionalidade botão de assinatura, Validação do formulário. (JavaScript)
