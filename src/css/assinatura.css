@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: bottom 0px right 300px no-repeat url(../img/bg-assinatura.png);
+    background: bottom 0px right 300px no-repeat url(/img/bg-assinatura.png);
 }
 
 .aside__compra {
@@ -271,7 +271,7 @@
     }
 
     .modal__corpo-flex {
-        background: center no-repeat url(../img/bg-assinatura.png);
+        background: center no-repeat url(/img/bg-assinatura.png);
     }
 }
 

@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: Questrial-Regular;
-    src: url(../fonts/Questrial-Regular.ttf);
+    src: url(/fonts/Questrial-Regular.ttf);
 }
 
 * {

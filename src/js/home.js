@@ -10,5 +10,5 @@ botaoSair.addEventListener('click', sair);
 function sair () {
     localStorage.removeItem('token');
     localStorage.removeItem('userLogado');
-    window.location.href = '/src/index.html';
+    window.location.href = '/index.html';
 }

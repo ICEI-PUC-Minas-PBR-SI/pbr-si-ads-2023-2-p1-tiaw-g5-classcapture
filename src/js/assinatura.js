@@ -24,7 +24,7 @@ formulario.addEventListener("submit", (e) => {
     console.log("Cadastro salvo no localStorage:", novoCadastro);
     console.log("Todos os cadastros:", cadastrosAntigos);
 
-    window.location.href = './home.html';
+    window.location.href = '/pages/home.html';
 });
 
 camposDoFormulario.forEach((campo) => {
@@ -67,8 +67,6 @@ camposDoFormulario.forEach((campo) => {
             campo.classList.add('campo-validado');
         }
     });
-
-
 });
 
 const tiposDeErro = [

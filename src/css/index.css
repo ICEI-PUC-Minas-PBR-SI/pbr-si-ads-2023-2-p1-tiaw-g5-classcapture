@@ -26,7 +26,7 @@ nav {
 
 main {
     height: 100vh;
-    background-image: url('../img/fundo_landing.png');
+    background-image: url('/img/fundo_landing.png');
     background-size: cover; 
     background-position: center;
     display: flex;

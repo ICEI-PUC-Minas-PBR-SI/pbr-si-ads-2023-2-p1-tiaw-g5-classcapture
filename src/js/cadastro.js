@@ -186,7 +186,7 @@ function cadastrar() {
     msgError.innerHTML = ''
 
     setTimeout(() => {
-      window.location.href = '/src/pages/login.html';
+      window.location.href = '/pages/login.html';
     })
 
   } else {
