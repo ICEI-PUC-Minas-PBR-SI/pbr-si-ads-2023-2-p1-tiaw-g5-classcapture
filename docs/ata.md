@@ -12,8 +12,8 @@
 * Carlos Henrique Pereira Vieira
 
 ## Anotações
-* Bruno Alexandre Anastacio de Almeida: Fez toda a documentação e testes, incluindo vídeos e o teste end to end e sistemas de teste com evidências.
-* Daniel de Paula Godinho: N/A
+* Bruno Alexandre Anastacio de Almeida: Fez toda a documentação e testes, incluindo vídeos de testes e o teste end to end e sistemas de teste com evidências.
+* Daniel de Paula Godinho: Vídeos de teste documentação.
 * Felipe Simão da Silva: Adicionar Galeria, Galeria - Interação com imagens (JavaScript)
 * Guilherme Augusto Lopes Campos: Login JS, Home - Funcionalidade botão de assinatura, Validação do formulário. (JavaScript)
 * Igor Emanuel da Silva: Trocar foto de perfil, Perfil concluir página (JavaScript)
@@ -25,7 +25,7 @@
 
 ## Tarefas feitas:
 * Bruno Alexandre Anastacio de Almeida (Feito)
-* Daniel de Paula Godinho (N/A)
+* Daniel de Paula Godinho (Feito)
 * Felipe Simão da Silva (Feito)
 * Guilherme Augusto Lopes Campos (Feito)
 * Igor Emanuel da Silva (Feito)
