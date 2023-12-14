@@ -25,9 +25,8 @@
 
 ## Orientador
 
-* Fábio Leandro Rodrigues Cordeiro
 * Franciele Parreiras
-* Shirley Luana Ramos de Assis
+* Clóvis Lemos Tavares
 
 # Planejamento
 
